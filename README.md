@@ -1,4 +1,4 @@
-# Learning CSS
+# CSS 学習ログ
 
 CSSの学習や情報収集についてのまとめ
 
