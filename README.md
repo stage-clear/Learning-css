@@ -7,6 +7,11 @@ CSSの学習や情報収集についてのまとめ
 - [詳細度](docs/Specificity.md)
 
 
+## リファレンス
+
+- [Apple TV parallax](http://designmodo.com/apple-tv-effect/)
+
+
 ## リンク
 
 - [W3C CSS](http://www.w3.org/TR/#tr_CSS)
