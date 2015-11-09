@@ -1,9 +1,9 @@
 # CSS Frameworks
 
-- [Bootstrap](http://getbootstrap.com/) レイアウト/UIなど重量級のフレームワーク(by Twitter) 
+- [Bootstrap](http://getbootstrap.com/) レイアウト/UIなど重量級のフレームワーク (by Twitter) 
 - [Semantic UI](http://semantic-ui.com/) Bootstrap の対抗馬。レイアウト/UIを含む重量級。
 - [Pure](http://purecss.io/) 軽量 (by Yahoo)
-- [Skeleton](http://getskeleton.com/) 最軽量。レイアウトのみなどで使いたい場合など
+- [Skeleton](http://getskeleton.com/) 最軽量。レイアウトや基礎部分のみなどで使いたい場合
 - [Primer](http://primercss.io/) (by Github)
 - [Scooter](http://dropbox.github.io/scooter/index.html) (by Dropbox)
 - [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) (by Google)
