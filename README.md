@@ -9,14 +9,8 @@ CSSの学習や情報収集についてのまとめ
 
 ## リファレンス
 
+- [CSS Framework List](docs/framework-list)
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/)
-
-
-__フレームワーク__
-
-- [Bootstrap](http://getbootstrap.com/)
-- [Primer](http://primercss.io/)
-- [Scooter](http://dropbox.github.io/scooter/index.html)
 
 
 ## リンク
