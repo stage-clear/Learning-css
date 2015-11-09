@@ -10,6 +10,7 @@ CSSの学習や情報収集についてのまとめ
 ## リファレンス
 
 - [CSS Framework List](docs/framework-list.md)
+- [stylesheet](https://stylesheets.co/)
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/)
 
 
@@ -22,6 +23,4 @@ __モジュール__
 
 - [CSS font modules](http://www.w3.org/TR/css3-fonts/)
 
-__リファレンス__
 
-- [stylesheet](https://stylesheets.co/)
