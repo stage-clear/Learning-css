@@ -9,7 +9,7 @@ CSSの学習や情報収集についてのまとめ
 
 ## リファレンス
 
-- [CSS Framework List](docs/framework-list)
+- [CSS Framework List](docs/framework-list.md)
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/)
 
 
