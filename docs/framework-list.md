@@ -1,18 +1,17 @@
 # CSS Frameworks
 
-- [Bootstrap](http://getbootstrap.com/) by Twitter
-- [Semantic UI](http://semantic-ui.com/)
-- [Primer](http://primercss.io/) by Github
-- [Pure](http://purecss.io/) by Yahoo
-- [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) by Google
-- [Scooter](http://dropbox.github.io/scooter/index.html) by Dropbox
+- [Bootstrap](http://getbootstrap.com/) Twitter製。レイアウト/UIなど重量級のフレームワーク
+- [Semantic UI](http://semantic-ui.com/) Bootstrap の対抗馬。レイアウト/UIを含む重量級。
+- [Primer](http://primercss.io/) Github製
+- [Pure](http://purecss.io/) Yahoo製。軽量。
+- [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) Google製
+- [Scooter](http://dropbox.github.io/scooter/index.html) Dropbox製
+- [Skeleton](http://getskeleton.com/) 最軽量。レイアウトのみなどで使いたい場合によい。
 - [Foundation](http://foundation.zurb.com/)
 - [Bourbon](http://bourbon.io/)
-- [HTML KickStart](http://www.99lime.com/elements/)
-- [Skeleton](http://getskeleton.com/)
-- [Cascade](http://jslegers.github.io/cascadeframework/)
 - [Kube](https://imperavi.com/kube/)
-- [SkyBlue](http://stanko.github.io/skyblue/)
+- [HTML KickStart](http://www.99lime.com/elements/)
+- [SkyBlue](http://stanko.github.io/skyblue/) 
 
 
 ## リンク
