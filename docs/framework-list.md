@@ -1,12 +1,12 @@
 # CSS Frameworks
 
-- [Bootstrap](http://getbootstrap.com/) Twitter製。レイアウト/UIなど重量級のフレームワーク
+- [Bootstrap](http://getbootstrap.com/) レイアウト/UIなど重量級のフレームワーク(by Twitter) 
 - [Semantic UI](http://semantic-ui.com/) Bootstrap の対抗馬。レイアウト/UIを含む重量級。
-- [Primer](http://primercss.io/) Github製
-- [Pure](http://purecss.io/) Yahoo製。軽量。
-- [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) Google製
-- [Scooter](http://dropbox.github.io/scooter/index.html) Dropbox製
-- [Skeleton](http://getskeleton.com/) 最軽量。レイアウトのみなどで使いたい場合によい。
+- [Pure](http://purecss.io/) 軽量 (by Yahoo)
+- [Skeleton](http://getskeleton.com/) 最軽量。レイアウトのみなどで使いたい場合など
+- [Primer](http://primercss.io/) (by Github)
+- [Scooter](http://dropbox.github.io/scooter/index.html) (by Dropbox)
+- [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) (by Google)
 - [Foundation](http://foundation.zurb.com/)
 - [Bourbon](http://bourbon.io/)
 - [Kube](https://imperavi.com/kube/)
@@ -16,4 +16,5 @@
 
 ## リンク
 
+- [おススメのレスポンシブCSSフレームワークを紹介](http://webhack.hatenablog.com/entry/2015/07/10/214739)
 - [CSS Front-end Frameworks with comparison - By usabli.ca](http://usablica.github.io/front-end-frameworks/compare.html)
