@@ -10,19 +10,8 @@ CSSの学習や情報収集のまとめ
 - [ウェブ関連仕様 日本語訳](http://www.hcn.zaq.ne.jp/___/WEB/index.html)
 
 
-## ドキュメント
+## メニュー
 
-- [詳細度](docs/Specificity.md)
-- [CSS Framework List](docs/framework-list.md)
-
-
-## Tips
-
-- [Apple TV parallax](http://designmodo.com/apple-tv-effect/)
-
-
-## リファレンス
-
-- [stylesheet](https://stylesheets.co/)
-- [W3Cスタイルシート仕様の歩き方みたいなもの](http://momdo.hatenablog.jp/entry/20150911/1441977908)
+- [ドキュメント](docs/)
+- [リファレンス](references/)
 
