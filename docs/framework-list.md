@@ -4,9 +4,9 @@
 - [Semantic UI](http://semantic-ui.com/) Bootstrap の対抗馬。レイアウト/UIを含む重量級。
 - [Pure](http://purecss.io/) 軽量 (by Yahoo)
 - [Skeleton](http://getskeleton.com/) 最軽量。レイアウトや基礎部分のみなどで使いたい場合
+- [Material Design Lite](http://www.getmdl.io/) (by Google)
 - [Primer](http://primercss.io/) (by Github)
 - [Scooter](http://dropbox.github.io/scooter/index.html) (by Dropbox)
-- [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) (by Google)
 - [Foundation](http://foundation.zurb.com/)
 - [Bourbon](http://bourbon.io/)
 - [Kube](https://imperavi.com/kube/)
