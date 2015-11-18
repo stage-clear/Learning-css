@@ -9,7 +9,3 @@
 
 - [stylesheet](https://stylesheets.co/)
 
-
-## Help
-
-- [W3Cスタイルシート仕様の歩き方みたいなもの](http://momdo.hatenablog.jp/entry/20150911/1441977908)
