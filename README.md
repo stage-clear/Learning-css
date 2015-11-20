@@ -17,6 +17,6 @@ CSSの学習や情報収集のまとめ
 - [リファレンス](references/)
 
 
-## CSS NEXT
+## トランスパイラ
 
-- [CSS.next](https://github.com/cssnext/cssnext)
+- [cssnext](https://github.com/cssnext/cssnext)
