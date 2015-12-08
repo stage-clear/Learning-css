@@ -17,10 +17,10 @@
 13. [x] [3次元の変形](13/) - 3D Transformations
 14. [x] [トランジションとアニメーション](14/) - Transitions and Animations
 15. [ ] Flexbox レイアウト - Flexible Box Layout
-16. [x] [値と長さ](16/)
-17. [ ] グリッドレイアウト
-18. [x] [ブレンドモード、フィルター効果、マスキング](18/)
-19. [ ] CSS の将来
+16. [x] [値と長さ](16/) - Values and Sizing
+17. [ ] グリッドレイアウト - Grid Layout
+18. [x] [ブレンドモード、フィルター効果、マスキング](18/) - Blend Modes, Filter Effects, and Masking
+19. [ ] CSS の将来 - The Future of CSS
 
 __付録__
 
