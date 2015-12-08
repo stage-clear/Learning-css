@@ -2,25 +2,25 @@
 
 ## 目次
 
-1. [ ] CSS3入門 - An Overview of CSS3
-2. [x] [メディアクエリ](02/) - Media Queries
-3. [x] [セレクタ](03/) - DOM and Attribute selectors
-4. [x] [擬似クラスと擬似要素](04/) - Pseudo Classes and Pseudo Elements
-5. [x] [Web フォント](05/) - Web Fonts
-6. [ ] [テキストの効果とスタイル](06/) - Text Effects and Typographic Styles
-7. [ ] 段組み - Multiple Columns
-8. [ ] 背景画像 - Background Images and Other Decorative Properties
-9. [ ] ボーダーとボックスの効果 - Border and Box Effects
-10. [ ] 色と不透明度 - Color and Opacity
-11. [ ] グラデーション - Gradients
-12. [x] [2次元の変形](12/) - 2D Transformations
-13. [x] [3次元の変形](13/) - 3D Transformations
-14. [x] [トランジションとアニメーション](14/) - Transitions and Animations
-15. [ ] Flexbox レイアウト - Flexible Box Layout
-16. [x] [値と長さ](16/) - Values and Sizing
-17. [ ] グリッドレイアウト - Grid Layout
-18. [x] [ブレンドモード、フィルター効果、マスキング](18/) - Blend Modes, Filter Effects, and Masking
-19. [ ] CSS の将来 - The Future of CSS
+1. [ ] CSS3入門 - _An Overview of CSS3_
+2. [x] [メディアクエリ](02/) - _Media Queries_
+3. [x] [セレクタ](03/) - _DOM and Attribute selectors_
+4. [x] [擬似クラスと擬似要素](04/) - _Pseudo Classes and Pseudo Elements_
+5. [x] [Web フォント](05/) - _Web Fonts_
+6. [ ] [テキストの効果とスタイル](06/) - _Text Effects and Typographic Styles_
+7. [ ] 段組み - _Multiple Columns_
+8. [ ] 背景画像 - _Background Images and Other Decorative Properties_
+9. [ ] ボーダーとボックスの効果 - _Border and Box Effects_
+10. [ ] 色と不透明度 - _Color and Opacity_
+11. [ ] グラデーション - _Gradients_
+12. [x] [2次元の変形](12/) - _2D Transformations_
+13. [x] [3次元の変形](13/) - _3D Transformations_
+14. [x] [トランジションとアニメーション](14/) - _Transitions and Animations_
+15. [ ] Flexbox レイアウト - _Flexible Box Layout_
+16. [x] [値と長さ](16/) - _Values and Sizing_
+17. [ ] グリッドレイアウト - _Grid Layout_
+18. [x] [ブレンドモード、フィルター効果、マスキング](18/) - _Blend Modes, Filter Effects, and Masking_
+19. [ ] CSS の将来 - _The Future of CSS_
 
 __付録__
 
