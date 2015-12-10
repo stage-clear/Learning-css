@@ -1,0 +1,19 @@
+/*
+ * columns
+ * @param {column-count} [columns] - 分割するカラムの数
+ * @param {column-width} [length] - 分割するカラムの横幅
+ * @param {column-fill} [balance | auto | inherit] - カラム間の高さの調整
+ * @param {column-gap} [length] - カラムの間の余白の指定
+ * @param {column-rule} - カラムの中間に線を入れる
+ * @param {column-rule-width} [length] - 線の太さ
+ * @param {column-rule-style} [border-style] - 線のスタイル
+ * @param {column-rule-color} [color] - 線の色
+ * @param {color-span} [all | none]
+ */
+E {
+  columns: [column-width] [column-count];
+  column-fill: [keyword];
+  column-gap: [length];
+  column-rule: [length] [border-style] [color];
+  column-span: [keyword];
+}
