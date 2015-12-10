@@ -7,7 +7,7 @@
 3. [x] [セレクタ](03/) - _DOM and Attribute selectors_
 4. [x] [擬似クラスと擬似要素](04/) - _Pseudo Classes and Pseudo Elements_
 5. [x] [Web フォント](05/) - _Web Fonts_
-6. [ ] [テキストの効果とスタイル](06/) - _Text Effects and Typographic Styles_
+6. [x] [テキストの効果とスタイル](06/) - _Text Effects and Typographic Styles_
 7. [x] [段組み](07/) - _Multiple Columns_
 8. [ ] 背景画像 - _Background Images and Other Decorative Properties_
 9. [ ] ボーダーとボックスの効果 - _Border and Box Effects_
