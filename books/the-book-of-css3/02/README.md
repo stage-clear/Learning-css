@@ -5,7 +5,7 @@
 1. link要素に指定
 
 ```html
-<link href="file" rel="stylesheet" media="login cmedia and  (expression)">
+<link href="file" rel="stylesheet" media="login media and  (expression)">
 ```
 
 2. import で外部スタイルシートを呼び出す
@@ -42,12 +42,12 @@ __例__
 
 |名前|説明|
 |:--|:--|
-|width|幅|
-|height|高さ|
-|resolution|ピクセル比 <dpx>,<dpi>|
-|device-pixel-ratio|ピクセル比(safari)|
-|orientaion|<landscape><portrait>|
-|aspect-ratio|ブラウザのアスペクト比|
-|device-aspect-ratio|デバイスのアスペクト比|
+| `width` |幅|
+| `height` |高さ|
+| `resolution` |ピクセル比 `dpx`, `dpi`|
+| `device-pixel-ratio` |ピクセル比 (safari)|
+| `orientaion` | `landscape` `portrait` |
+| `aspect-ratio` |ブラウザのアスペクト比|
+| `device-aspect-ratio` |デバイスのアスペクト比|
 
-* それぞれ max-, min- 接頭辞で最大値最小値を指定できる
+* それぞれ `max-`, `min-` 接頭辞で最大値最小値を指定できる
