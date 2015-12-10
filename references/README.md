@@ -1,7 +1,8 @@
 # References
-CSSの技術的に参考にできる記事など
+技術的に参考にできる記事など
 
 ## Online Tips
+実践的に参考にできるもの
 
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/)
 - [A grouped pure CSS parallax demo](http://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/)
@@ -15,6 +16,7 @@ CSSの技術的に参考にできる記事など
 
 
 ## Showcase
+インスピレーション程度に参考できるもの
 
 - [stylesheet](https://stylesheets.co/)
 
