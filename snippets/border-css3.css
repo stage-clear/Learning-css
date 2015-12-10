@@ -1,5 +1,11 @@
 /*
  * border-radius
+ * @param {border-top-left-radius}
+ * @param {border-top-right-radius}
+ * @param {border-bottom-right-radius}
+ * @param {border-bottom-left-radius}
+ * @param {border-radius} - 短縮記法
+ * @param {border-radius} [border-radiis] / [border-radius] - 短縮記法での非対称な曲線
  */
 
 __左右対象な曲線__
@@ -41,4 +47,36 @@ E { border-radius: [horizontal-radius] / [vertical-radius]; }
 
 /*
  * border-image
+ * @param {border-image-source} - ボーダーに使う画像をURLで指定
+ * @param {border-image-slice} [value] ([fill]) - 画像を切り取る
+ * @param {border-image-width} [value] - ボーダーの太さを調整する
+ * @param {border-image-outset} [length] - ボーダー画像の開始位置を外側に調整
+ * @param {border-image-repeat} [stretch | repeat | round] - 画像の描画方法 / 最大2つの値を指定
  */
+E {
+  border-image-source: url([path/to/image]); 
+  border-image-slice: [vakye] [fill];
+  border-image-width: [value];
+  border-image-outset: [length];
+  border-image-repeat: [keyword];
+}
+
+/* 短縮記法 */
+
+E {
+  border-image: [source] [slice] / [width] / [outset] [repeat];
+}
+
+/* 簡単な例 */
+
+E {
+  border-image-source: url('foo.png');
+  border-image-slice: 25 10 fill;
+  border-image-width: 25px 10px;
+  border-image-outset: 3px;
+  border-image-repeat: round;
+}
+
+F {
+  border-image: url('foo.png') 25 10 fill / 25px 10px / 5px round;
+}
