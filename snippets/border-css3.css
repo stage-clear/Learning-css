@@ -8,7 +8,7 @@
  * @param {border-radius} [border-radiis] / [border-radius] - 短縮記法での非対称な曲線
  */
 
-__左右対象な曲線__
+/* 左右対象な曲線 */
 
 E {
   border-top-left-radius: 20px;
@@ -17,7 +17,7 @@ E {
   border-bottom-left-radius: 20px;
 }
 
-__左右非対称な曲線__
+/* 左右非対称な曲線 */
 
 E {
   border-top-left-radius: 10px 20px;
@@ -26,7 +26,7 @@ E {
   border-bottom-right-radius: 10px 20px;
 }
 
-__短縮記法__
+/* 短縮記法 */
 
 /* 値が4つ */
 E { border-radius: [top-left] [top-right] [bottom-right] [bottom-left]; }
@@ -38,7 +38,7 @@ E { border-radius: [top-left & bottom-right] [top-right & bottom-left]; }
 E { border-radius: [top-left & top-right & bottom-right & bottom-left]; }
 
 
-__短縮記法で非対称な曲線__
+/* 短縮記法で非対称な曲線 */
 
 ```css
 E { border-radius: [horizontal-radius] / [vertical-radius]; }
