@@ -45,31 +45,35 @@ h1 {
 
 ## 5.1.2 実在するフォントフェイスと生成されたフォントフェイス
 
-- Webフォントを使う場合、利用しようとしているすべてのフォントフェイスについてフォントファイル
-を用意してリンクを記述する必要があります。そうしないと、ブラウザがフォントフェイスを自動生成
-するため、多くの場合は見苦しい表示になってしまいます
+- Webフォントを使う場合、利用しようとしているすべてのフォントフェイスについてフォントファイルを用意してリンクを記述する必要があります。そうしないと、ブラウザがフォントフェイスを自動生成するため、多くの場合は見苦しい表示になってしまいます
 - 斜体のスタイルを使う場合、`@font-face` の中でわすれずに斜体のフォントフェイスも定義しましょう
 
+
+## 5.2 互換性の高い `@font-face` の記法
+
+### 5.2.1 ローカルのフォントを使う
+
+- `local()` の値は、指定したフォントがユーザーのシステムにインストール済みかどうかをチェックするために使われます
+- バージョン9より前のIEでは `local()` がまったくサポートされていません
+- `@font-face` ルールとフォント管理ソフトウェアの相性が悪いこともあります。
+  誤った字が表示されたり、フォントを利用する許可を求めてダイアログが表示されたりする可能性があります
+
+
+### 5.2.2 フォントの形式
 
 
 ### 5.2.3 構文の詳細
 
 ```css
 @font-face {
-  font-family: 'Gentium Basic';
-  src: url('GenBkBasR.eot');
-  src: url('GenBasR.eot.?#iefix') format('embeded-opentype'),
-       url('GenBkBasR.woff') format('woff'),
-       url('GenBkBasR.ttf') format('truetype');
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff') format('woff'), /* Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 ```
-
-1. IE8以前のための`EOT`形式のフォントを指定
-2. IE9での互換性の問題のために再び`EOT`形式のフォントを指定。
-  （互換性の問題は重要ではなくなっているので各自の判断で削除してしまっても構わない）
-3. 大多数のブラウザで使われる`WOFF`形式のフォントを指定
-4. Android 4.3以前の古いブラウザ向けに`TTF`形式のフォントを指定
-
 
 ## 5.4 Webフォント
 
