@@ -17,3 +17,12 @@ E {
   column-rule: [length] [border-style] [color];
   column-span: [keyword];
 }
+
+
+/* 例 */
+div {
+  columns: 100px 3;
+  column-fill: balance;
+  column-gap: 2em;
+  column-rule: .3em double silver;
+}
