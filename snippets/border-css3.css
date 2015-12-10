@@ -1,0 +1,44 @@
+/*
+ * border-radius
+ */
+
+__左右対象な曲線__
+
+E {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+__左右非対称な曲線__
+
+E {
+  border-top-left-radius: 10px 20px;
+  border-top-right-radius: 10px 20px;
+  border-bottom-left-radius: 10px 20px;
+  border-bottom-right-radius: 10px 20px;
+}
+
+__短縮記法__
+
+/* 値が4つ */
+E { border-radius: [top-left] [top-right] [bottom-right] [bottom-left]; }
+/* 値が3つ */
+E { border-radius: [top-left] [top-right & bottom-left] [bottom-right]; }
+/* 値が2つ */
+E { border-radius: [top-left & bottom-right] [top-right & bottom-left]; }
+/* 値が1つ */
+E { border-radius: [top-left & top-right & bottom-right & bottom-left]; }
+
+
+__短縮記法で非対称な曲線__
+
+```css
+E { border-radius: [horizontal-radius] / [vertical-radius]; }
+```
+
+
+/*
+ * border-image
+ */
