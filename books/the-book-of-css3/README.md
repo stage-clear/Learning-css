@@ -36,7 +36,8 @@ __コラム目次__
 - fr とパーセンテージの比較
 
 
-## リンク
+## 外部リンク
 
-- [stopsatgreen/thebookofcss3](https://github.com/stopsatgreen/thebookofcss3)
-- [CSS3開発者ガイド 第2版――モダンWebデザインのスタイル設計](http://www.oreilly.co.jp/books/9784873117256/) ([Amazon](http://www.amazon.co.jp/dp/4873117259))
+- [thebookofcss3](https://github.com/stopsatgreen/thebookofcss3) - Github
+- [CSS3開発者ガイド 第2版](http://www.oreilly.co.jp/books/9784873117256/)  - O'REILLY Books
+- [CSS3開発者ガイド 第2版](http://www.amazon.co.jp/dp/4873117259) - Amazon
