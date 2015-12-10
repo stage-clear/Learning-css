@@ -2,17 +2,17 @@
  * background (CSS3での変更点)
  * @param {background-position} - 最大4つの値を指定できるようになりました
  * @param {background-attachment} [local]
- * @param {background-repeat} - 上下と左右で異なる指定ができるようになりました
+ * @param {background-repeat} [space | round] - 上下と左右で異なる指定ができるようになりました
  * @param {background-image} - 複数の背景画像を指定できるようになりました
- * @param {background-size} [pixel | percent | auto | contain | cover ] - 画像サイズの動的な変更
- * @param {background-clip} [border-box | padding-box | content-box] 背景を適用する範囲の指定
- * @param {background-origin} [border-box | padding-box | cotnent-box] 背景の起点
+ * @param {background-size} [length | auto | contain | cover ] - 画像サイズの動的な変更
+ * @param {background-clip} [border-box | padding-box | content-box] - 背景を適用する範囲
+ * @param {background-origin} [border-box | padding-box | cotnent-box] - 背景の起点
  */
 E {
   background-position: [keyword] [length] [keyword] [length];
   background-attachment: [keyword];
   background-repeat: [keyword];
-  background-image: [value] [value];
+  background-image: [value], [value];
   background-size: [width] [height];
   background-size: [value];
   background-clip: [box];
@@ -31,7 +31,6 @@ E {
 
 
 /* 簡単な例 */
-
 div {
   background-position: right 100px bottom: 10%;
   background-attachment: local;
@@ -39,6 +38,6 @@ div {
   background-image: url('monkey.svg'), url('landscape.jpg');
   background-size: auto 80%;
   background-size: contain;
-  background-size: border-box;
-  background-origin: 
+  background-size: padding-box;
+  background-origin: border-box;
 }
