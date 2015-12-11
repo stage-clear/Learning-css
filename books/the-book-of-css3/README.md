@@ -16,7 +16,7 @@
 12. [x] [2次元の変形](12/) - _2D Transformations_
 13. [x] [3次元の変形](13/) - _3D Transformations_
 14. [x] [トランジションとアニメーション](14/) - _Transitions and Animations_
-15. [ ] Flexbox レイアウト - _Flexible Box Layout_
+15. [x] [Flexbox レイアウト](15/) - _Flexible Box Layout_
 16. [x] [値と長さ](16/) - _Values and Sizing_
 17. [ ] グリッドレイアウト - _Grid Layout_
 18. [x] [ブレンドモード、フィルター効果、マスキング](18/) - _Blend Modes, Filter Effects, and Masking_
