@@ -12,7 +12,7 @@
 8. [x] [背景画像](08/) - _Background Images and Other Decorative Properties_
 9. [x] [ボーダーとボックスの効果](09/) - _Border and Box Effects_
 10. [x] [色と不透明度](10/) - _Color and Opacity_
-11. [ ] グラデーション - _Gradients_
+11. [x] [グラデーション](11/) - _Gradients_
 12. [x] [2次元の変形](12/) - _2D Transformations_
 13. [x] [3次元の変形](13/) - _3D Transformations_
 14. [x] [トランジションとアニメーション](14/) - _Transitions and Animations_
