@@ -22,7 +22,7 @@ E {
   - `flex-direction: row` なら縦方向、`flex-direction: column` なら横方向
 - クロス軸はメイン軸に対して、直角に交わります
 
-![flexアイテムの配置の方向を示すメイン軸とクロス軸](https://www.dropbox.com/s/4u96lvfrn1w2xws/flexbox_flex_direction.png)
+![flexアイテムの配置の方向を示すメイン軸とクロス軸](https://www.dropbox.com/s/4u96lvfrn1w2xws/flexbox_flex_direction.png?dl=0)
 
 - 軸の始点や終点という概念がよく使われます
 - 軸の方向が横の場合は、始点が左で終点が右。縦方向の場合は、始点が上で終点が下。（反転していない場合）
