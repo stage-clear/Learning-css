@@ -1,0 +1,40 @@
+
+/*
+ * Flexbox - container
+ * @prop {display} flex - flex コンテナが作成されその子要素は flex アイテムとなる
+ * @prop {flex-direction} [row | row-reverse | column | column-reverse] - メイン軸の方向
+ * @prop {flex-wrap} [nowrap | wrap | wrap-ervers] - 折り返しの指定
+ * @prop {flex-flow} [flex-wrap] [flex-direction] - 短縮記法
+ * @prop {justify-content} [flex-end | center | space-between | space-around] - メイン軸方向の配置
+ * @prop {align-items} [flex-start | flex-end | center | baseline | stretch] - クロス軸方向の配置
+ * @prop {align-content} [flex-end | center | space-between | space-around] - 複数行になった場合のクロス軸方向の配置
+ */
+ 
+.flex-container {
+  display: flex;
+  width: 600px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+/*
+ * Flexbox - item
+ * @prop {order} <interger> - 並びの順番
+ * @prop {flex-grow} <integer> - 余白が余る場合に余白を分割する比率
+ * @prop {flex-shrink} <integer> - 横幅の総和がコンテナを越えた場合に縮小する比率
+ * @prop {flex-basis} <length> - 初期サイズ（width は無視されます）
+ * @prop {flex} [flex-grow] [flex-shrink] [flex-basis] - 短縮記法
+ * @prop {align-self} [flex-start | flex-end | center | baseline | stretch] - 個々のクロス軸方向の配置
+ */
+
+.flex-item {
+  flex: 1 1 150px;
+}
+.flex-item#a {
+  align-self: flex-end;
+}
+.flex-item#b {
+  order: 1;
+}
