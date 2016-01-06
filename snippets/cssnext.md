@@ -49,3 +49,15 @@ article :--heading + p {
   font-size: 13px;
 }
 ```
+
+
+__matches pseudo-class__
+
+- [The Matches-any Pseudo-class: :matches()](https://drafts.csswg.org/selectors-4/#matches)
+- [postcss-selector-matches](https://github.com/postcss/postcss-selector-matches)
+
+```css
+p:matches(:first-child, .special) {
+  color: red;
+}
+```
