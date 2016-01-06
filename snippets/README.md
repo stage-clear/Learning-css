@@ -5,4 +5,4 @@
 - [Backgrounds (CSS3)](backgrounds-css3.css) - CSS3で変更/追加された背景の指定法
 - [Borders (CSS3)](border-css3.css) - 角丸や画像を使ったボーダー
 - [Flexbox](flexbox.css) - Flexbox の書き方
-- [cssnext](http://cssnext.io/features/) - cssnext で有効な記述 :arrow_upper_right:
+- [cssnext](http://cssnext.io/features/):arrow_upper_right: - cssnext で有効な記述
