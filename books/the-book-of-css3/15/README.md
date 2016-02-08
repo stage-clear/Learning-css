@@ -1,6 +1,7 @@
 # Flexbox レイアウト
 
 - [CSS Flexible Box Layout モジュール](http://www.w3.org/TR/css-flexbox-1/)
+- [日本語訳](http://www.hcn.zaq.ne.jp/___/WEB/css-flexbox-ja.html)
 
 
 ## 15.1 Flexbox のモデルの定義
