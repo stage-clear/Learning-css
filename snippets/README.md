@@ -6,8 +6,7 @@
 - [Flexbox](flexbox.css) - Flexbox の書き方
 - [Multi columns](columns.css) - `columns` の記述法
 
-
-## pseudo element
+## pseudo class/element
 - [::-moz-focus-inner](moz-focus-inner.css) - "Firefox inner outline on buttons" / `input/button` のノーマライズ
 
 ## link
