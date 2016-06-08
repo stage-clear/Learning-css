@@ -2,6 +2,7 @@
 /**
  * input/button
  * -moz-focus-inner
+ * @reference http://wtfhtmlcss.com/ "Firefox inner outline on buttons"
  */
 
 input::-moz-focus-inner,
