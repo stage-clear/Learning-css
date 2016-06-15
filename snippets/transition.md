@@ -16,7 +16,7 @@ E {
 }
 ```
 
-## JavaScript
+## with JavaScript
 `transitionend` イベントは tansition した property の数発行される
 
 ```js
