@@ -16,6 +16,9 @@ E {
 }
 ```
 
+- [cubic-bezier.com](http://cubic-bezier.com/)
+
+
 ## with JavaScript
 トランジションの完了を `transitionend` イベントで検出できます。
 `transitionend` イベントは tansition した property の数発行されます。
