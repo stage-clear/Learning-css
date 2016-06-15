@@ -23,7 +23,7 @@ E {
 }
 ```
 
-## with JavaScript
+## with JavaScript - event
 
 ```js
 let el = document.querySelector(ELEMENT);
@@ -65,3 +65,44 @@ function toggleAnim(e) {
 - [animationiteration](https://developer.mozilla.org/en-US/docs/Web/Events/animationiteration)
 - [animationend](https://developer.mozilla.org/en-US/docs/Web/Events/animationend)
 - [animation-play-state](https://developer.mozilla.org/ja/docs/Web/CSS/animation-play-state)
+
+
+## with JavaScript - CSS Keyframes Rule
+
+```html
+<style>
+.box {
+  /* style */
+}
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+</style>
+```
+
+```js
+var anim = document.styleSheets[1].cssRules[1];
+
+// findRule
+console.log(findRule());
+// appendRule
+aButton.addEventListener('click', appendRule, false);
+// deleteRule
+bButton.addEventListener('click', deleteRule, false);
+
+function findRule() {
+	return anim.findRule('100%');
+}
+
+function appendRule() {
+	anim.appendRule('50% {transform: rotate(60deg)} ');
+}
+
+function deleteRule() {
+	anim.deleteRule('50%');
+}
+```
+
+- [StyleSheet - MDN](https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet)
+- [CSSKeyframesRule - MDN](https://developer.mozilla.org/ja/docs/Web/API/CSSKeyframesRule)
