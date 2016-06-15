@@ -63,3 +63,4 @@ function toggleAnim(e) {
 - [animationstart](https://developer.mozilla.org/en-US/docs/Web/Events/animationstart)
 - [animationiteration](https://developer.mozilla.org/en-US/docs/Web/Events/animationiteration)
 - [animationend](https://developer.mozilla.org/en-US/docs/Web/Events/animationend)
+- [animation-play-state](https://developer.mozilla.org/ja/docs/Web/CSS/animation-play-state)
