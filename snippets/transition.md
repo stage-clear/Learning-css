@@ -17,10 +17,13 @@ E {
 ```
 
 ## with JavaScript
-`transitionend` イベントは tansition した property の数発行される
+トランジションの完了を `transitionend` イベントで検出できます。
+`transitionend` イベントは tansition した property の数発行されます。
 
 ```js
 document.querySelector(element).addEventListener('transitionend', e => {
   console.log(e.propertyName);
 });
 ```
+- [](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) - トランジション完了の検出
+- [transitionend](https://developer.mozilla.org/ja/docs/Web/Events/transitionend)
