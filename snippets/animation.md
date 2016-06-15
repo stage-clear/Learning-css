@@ -1,8 +1,8 @@
 # Animation
-
 - [CSSアニメーション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [CSS Animatable Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 
-## Property
+## Properties
 
 ```css
 E {
