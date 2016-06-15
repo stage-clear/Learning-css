@@ -67,7 +67,7 @@ function toggleAnim(e) {
 - [animation-play-state](https://developer.mozilla.org/ja/docs/Web/CSS/animation-play-state)
 
 
-## with JavaScript - CSS Keyframes Rule
+## with JavaScript - CSSKeyframesRule
 
 ```html
 <style>
