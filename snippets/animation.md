@@ -69,6 +69,8 @@ function toggleAnim(e) {
 
 ## with JavaScript - CSSKeyframesRule
 
+- [Sample](https://jsfiddle.net/walfo/ju4tbe3w/)
+
 ```html
 <style>
 .box {
@@ -92,15 +94,15 @@ aButton.addEventListener('click', appendRule, false);
 bButton.addEventListener('click', deleteRule, false);
 
 function findRule() {
-	return anim.findRule('100%');
+  return anim.findRule('100%');
 }
 
 function appendRule() {
-	anim.appendRule('50% {transform: rotate(60deg)} ');
+  anim.appendRule('50% {transform: rotate(60deg)} ');
 }
 
 function deleteRule() {
-	anim.deleteRule('50%');
+  anim.deleteRule('50%');
 }
 ```
 
