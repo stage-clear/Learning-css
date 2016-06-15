@@ -1,4 +1,5 @@
 # Transition
+- [CSS transition の使用](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 ## Properties
 
@@ -28,5 +29,5 @@ document.querySelector(element).addEventListener('transitionend', e => {
   console.log(e.propertyName);
 });
 ```
-- [](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) - トランジション完了の検出
+
 - [transitionend](https://developer.mozilla.org/ja/docs/Web/Events/transitionend)
