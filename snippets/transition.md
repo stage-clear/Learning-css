@@ -16,6 +16,7 @@ E {
   transition: [property] [duration] [timing-function] [delay];
 }
 ```
+> `transition-delay` にマイナスの指定をした場合は、指定した時間を差し引いて再生されます
 
 - [cubic-bezier.com](http://cubic-bezier.com/)
 
