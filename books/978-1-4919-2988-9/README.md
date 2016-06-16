@@ -11,7 +11,7 @@
    - Transitions Properties
    - In Reverse: Transitioning Back to Baseline
    - Animatable Properties and Values
-3. Animation
+3. [Animation](03/README.md)
    - Keyframes
    - Setting Up Your Keyframe Animation
    - Animated Elements
