@@ -111,7 +111,9 @@ function deleteRule() {
 
 
 ## Control CSSAnimation by JavaScript
-- `display:none` を設定すると `animation-itaration-count` はリセットされる
+- if the display property is set to `none`, the animation-iteration-count property is reset.
+
+[Sample](https://jsfiddle.net/walfo/2bwf8uo4/)
 
 ### Start
 - `animation-play-state: running`
@@ -124,7 +126,7 @@ function deleteRule() {
 - Stop: `display: none` , to Start `dispaly: block`
 - Stop: `classList.remove('.animate')`, `classList.add('.animate')`
 
-## Hidden, keep to be animated
+### Hidden, keep to be animated
 - `visibility: hidden` or `opacity: 0`
 
 
