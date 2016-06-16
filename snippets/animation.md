@@ -111,7 +111,7 @@ function deleteRule() {
 
 
 ## Control CSSAnimation by JavaScript
-- if the display property is set to `none`, the animation-iteration-count property is reset.
+- if the `display` property is set to `none`, the `animation-iteration-count` property is reset.
 
 [Sample](https://jsfiddle.net/walfo/2bwf8uo4/)
 
