@@ -122,7 +122,7 @@ function deleteRule() {
 
 ### Stop and Start
 - Stop: `display: none` , to Start `dispaly: block`
-- Stop: remove class, add class.
+- Stop: `classList.remove('.animate')`, `classList.add('.animate')`
 
 
 
