@@ -61,10 +61,11 @@ function toggleAnim(e) {
 }
 ```
 
-- [animationstart](https://developer.mozilla.org/en-US/docs/Web/Events/animationstart)
-- [animationiteration](https://developer.mozilla.org/en-US/docs/Web/Events/animationiteration)
-- [animationend](https://developer.mozilla.org/en-US/docs/Web/Events/animationend)
-- [animation-play-state](https://developer.mozilla.org/ja/docs/Web/CSS/animation-play-state)
+- [AnimationEvent - MDN](https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent)
+- [animationstart - MDN](https://developer.mozilla.org/en-US/docs/Web/Events/animationstart)
+- [animationiteration - MDN](https://developer.mozilla.org/en-US/docs/Web/Events/animationiteration)
+- [animationend - MDN](https://developer.mozilla.org/en-US/docs/Web/Events/animationend)
+- [animation-play-state - MDN](https://developer.mozilla.org/ja/docs/Web/CSS/animation-play-state)
 
 
 ## with JavaScript - CSSKeyframesRule
