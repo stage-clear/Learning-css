@@ -108,3 +108,21 @@ function deleteRule() {
 
 - [StyleSheet - MDN](https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet)
 - [CSSKeyframesRule - MDN](https://developer.mozilla.org/ja/docs/Web/API/CSSKeyframesRule)
+
+
+## Control CSSAnimation by JavaScript
+- `display:none` を設定すると `animation-itaration-count` はリセットされる
+
+### Start
+- `animation-play-state: running`
+- `animation-*` を設定したクラスを付与する
+
+### Pause and Resume
+- Pause: `animation-play-state: paused` , Resume: `animation-play-state: running`
+
+### Stop and Start
+- Stop: `display: none` , to Start `dispaly: block`
+- Stop: remove class, add class.
+
+
+
