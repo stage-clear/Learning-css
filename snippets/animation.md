@@ -124,5 +124,7 @@ function deleteRule() {
 - Stop: `display: none` , to Start `dispaly: block`
 - Stop: `classList.remove('.animate')`, `classList.add('.animate')`
 
+## Hidden, keep to be animated
+- `visibility: hidden` or `opacity: 0`
 
 
