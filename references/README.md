@@ -13,7 +13,8 @@
 - [FLEXBOX FROGGY](http://flexboxfroggy.com/) - Flexbox の学習サイト
 - [viewport-units-buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill) - Safariのv系の単位のバグに対処する
 - [Styling Broken Image](http://bitsofco.de/styling-broken-images/) - 画像の読み込みエラーのとき、擬似要素（`before`, `after`）にアクセスできる
-
+- [Sticky Footer, Five Ways
+ | CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) - ページ下部にフッターを配置する
 
 ## Showcase
 インスピレーション程度に参考できるもの
