@@ -12,21 +12,17 @@ E {
   transition-delay: <time> [, <time>];
 }
 
-/*
- * <single-transition-property> = all | <IDENT>
- * <single-transition-timing-function> = 
- */
-
-/* short-hand */
+/* shorthand */
 E {
-  transition: <[property] [duration] [timing-function] [delay]>;
   transition: <single-transtion> [, <single-transition>];
+  transition: <[property] [duration] [timing-function] [delay]>;
 }
 ```
 > `transition-delay` にマイナスの指定をした場合は、指定した時間を差し引いて再生されます
 
 - [`<single-transition-property>`](https://www.w3.org/TR/css3-transitions/#single-transition-property)
 - [`<single-transition-timing-function>`](https://www.w3.org/TR/css3-transitions/#single-transition-timing-function)
+- [`<single-transition>`](https://www.w3.org/TR/css3-transitions/#single-transition)
 - [cubic-bezier.com](http://cubic-bezier.com/)
 
 
