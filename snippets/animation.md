@@ -1,27 +1,36 @@
 # Animation
-- [CSSアニメーション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
-- [CSS Animatable Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+- [CSS Animation](https://www.w3.org/TR/css3-animations/) - W3
+- [CSSアニメーション](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations) - MDN
+- [CSS Animatable Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) - MDN
 - [Animateble](http://leaverou.github.io/animatable/)
 
 ## Properties
 
 ```css
 E {
-  animation-name: [name, ...];
-  animation-duration: [time, ...];
-  animation-timing-function: [value, ...];
-  animation-delay: [time, ...];
-  animation-iteration-count: [count, ...];
-  animation-direction: [keyword, ...];
-  animation-fill-mode: [keyword, ...];
-  animation-play-state: [keyword, ...]
+  animation-name: <single-animation-name> [, <single-animation-name>]*;
+  animation-duration: <time> [, <time>]*;
+  animation-timing-function: <single-timing-function> [, <single-timing-function>]*;
+  animation-iteration-count: <single-animation-iteration-count> [, <single-animation-iteration-count>]*;
+  animation-direction: <single-animation-direction> [, <single-animation-direction>]*;
+  animation-play-state: <single-animation-play-state> [, <single-animation-play-state>]*;
+  animation-delay: <time> [, <time>]*;
+  animation-fill-mode: <single-animation-fill-mode> [, <single-animation-fill-mode>]*;
 }
 
 /* short-hand */
 E {
+  animation: <single-animation> [, <single-animation>]*;
   animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state];
 }
 ```
+
+- [`<single-animation-name>`](https://www.w3.org/TR/css3-animations/#single-animation-name) - W3
+- [`<single-animation-iteration-count>`](https://www.w3.org/TR/css3-animations/#single-animation-iteration-count) - W3
+- [`<single-animation-direction>`](https://www.w3.org/TR/css3-animations/#single-animation-direction) - W3
+- [`<single-animation-play-state>`](https://www.w3.org/TR/css3-animations/#single-animation-play-state) - W3
+- [`<single-animation-fill-mode>`](https://www.w3.org/TR/css3-animations/#single-animation-fill-mode) - W3
+- [`<single-animation>`](https://www.w3.org/TR/css3-animations/#single-animation) - W3
 
 ## with JavaScript - event
 
