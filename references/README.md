@@ -13,7 +13,8 @@
 - [Styling Broken Image](http://bitsofco.de/styling-broken-images/) - 画像の読み込みエラーのとき、擬似要素（`before`, `after`）にアクセスできる
 - [Sticky Footer, Five Ways
  | CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) - ページ下部にフッターを配置する
-- [Specificity grapht](https://jonassebastianohlsson.com/specificity-graph/) - 詳細度をグラフ化するサイト
+- [CSS Specificity Graph Generator](https://jonassebastianohlsson.com/specificity-graph/) - 詳細度をグラフ化するサイト
+- [CodePen's Design Patterns](http://codepen.io/guide) - CodePen のスタイルガイド
 
 ## Showcase for inspiration
 - [CSS Framework list](https://gist.github.com/kesuiket/edd918a55cf0154953a9) - CSSフレームワークのリスト
