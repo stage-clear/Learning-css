@@ -2,8 +2,6 @@
 技術的に参考にできる記事など
 
 ## Online Tips
-実践的に参考にできるもの
-
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/) - 光の当て方などを使った視差効果
 - [A grouped pure CSS parallax demo](http://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/) - CSSのみでのz軸を使った視差効果
 - [HTML5 でマスクを使用する](https://support.google.com/richmedia/answer/6286751?hl=ja)
@@ -15,16 +13,14 @@
 - [Styling Broken Image](http://bitsofco.de/styling-broken-images/) - 画像の読み込みエラーのとき、擬似要素（`before`, `after`）にアクセスできる
 - [Sticky Footer, Five Ways
  | CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) - ページ下部にフッターを配置する
+- [Specificity grapht](https://jonassebastianohlsson.com/specificity-graph/) - 詳細度をグラフ化するサイト
 
-## Showcase
-インスピレーション程度に参考できるもの
-
+## Showcase for inspiration
 - [CSS Framework list](https://gist.github.com/kesuiket/edd918a55cf0154953a9) - CSSフレームワークのリスト
 - [stylesheet](https://stylesheets.co/)
 
 
 ## Transpiler
-
 - [cssnext](https://github.com/cssnext/cssnext)
 - [PostCSS](https://github.com/postcss/postcss)
 - [Pleeease](https://github.com/iamvdo/pleeease)
