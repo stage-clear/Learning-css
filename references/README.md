@@ -1,6 +1,4 @@
 # References
-技術的に参考にできる記事など
-
 ## Online Tips
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/) - 光の当て方などを使った視差効果
 - [A grouped pure CSS parallax demo](http://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/) - CSSのみでのz軸を使った視差効果
@@ -15,6 +13,10 @@
  | CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) - ページ下部にフッターを配置する
 - [CSS Specificity Graph Generator](https://jonassebastianohlsson.com/specificity-graph/) - 詳細度をグラフ化するサイト
 - [CodePen's Design Patterns](http://codepen.io/guide) - CodePen のスタイルガイド
+
+## Knowledge
+- [Responsive Web Design Patterns
+](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=ja) - レスポンシブのレイアウトパターンの呼び名など
 
 ## Showcase for inspiration
 - [CSS Framework list](https://gist.github.com/kesuiket/edd918a55cf0154953a9) - CSSフレームワークのリスト
