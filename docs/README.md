@@ -8,6 +8,8 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - [ウェブ関連仕様 日本語訳](http://www.hcn.zaq.ne.jp/___/WEB/index.html)
 - ([W3Cスタイルシート仕様の歩き方みたいなもの](http://momdo.hatenablog.jp/entry/20150911/1441977908))
 
+## 調べたもの
+- [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
 
 ## キーワード
 
