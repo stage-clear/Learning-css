@@ -1,10 +1,9 @@
-# CSS info
+# Learn to "CSS"
 CSSの学習や情報収集のまとめ
 
-## メニュー
-
-- [ドキュメント](docs/)
-- [スニペット](snippets/)
-- [リファレンス](references/)
-- [書籍](books/)
+## Menu
+- [Documents](docs/)
+- [Snipetts](snippets/)
+- [References](references/)
+- [Reading books](books/)
 
