@@ -139,3 +139,114 @@ E {
 ```
 
 - [Demo: diagonal-strips](http://dabblet.com/gist/abeab80934fc26e6538e)
+
+### よりよい斜めのストライプ
+```css
+E {
+  background: repeating-linear-gradient(
+    #fb3, #fb3 15px, #58a 0, #58a 30px
+  );
+}
+```
+
+- [Demo: diagonal-stripes-60deg](http://dabblet.com/gist/5646121210b0c99c94a7)
+
+45度の場合は、`linear-gradient` と `repeating-linear-gradient` の両方の
+アプローチを組み合わせることでカラーストップを減らせます
+```css
+E {
+  background: repeating-linear-gradient(45deg,
+    #fb3 0, #fb3 25%, #58a 0, #58a 100%
+  );
+  background-size: 42.4px 42.4px;
+}
+```
+
+### 似た色のストライプを柔軟に指定する
+濃い色を背景色にし、これに半透明の白のストライプを重ねます
+```css
+E {
+  background: #58a;
+  background-image: repeating-linear-gradient(30deg,
+    hsla(0,0%,100%,.1),
+    hsla(0,0%,100%,.1) 15px,
+    transparent 0, transparent 30px
+  );
+}
+```
+
+- [Demo: subtle-stripes](http://dabblet.com/gist/aa50d296a8ec07cf7334)
+
+## 6. 複雑な背景のパターン
+### 格子模様
+```css
+E {
+  background: white;
+  background-image: 
+    linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0), 
+    linear-gradient(       rgba(200,0,0,.5) 50%, transparent 0);
+  background-size: 30px 30px;
+}
+```
+
+格子のサイズが変わっても、線の幅は一定に保ちたいケース
+```css
+E {
+  background: #58a;
+  background-image: 
+    linear-gradient(white 1px, transparent 0),
+    linear-gradient(90deg, white 1px, transparent 0);
+  background-size: 30px 30px;
+}
+
+/* 異なる幅や色の線を組み合わせると、よりリアルな格子を作成できます */
+E {
+  background: #58a;
+  background-image: 
+    linear-gradient(white 2px, transparent 0),
+    linear-gradient(90deg, white 2px, transparent 0),
+    linear-gradient(hsla(0,0%,100%,.3) 1px, transparent 0),
+    linear-gradient(90deg, hsla(0,0%,100%,.3) 1px, transparent 0);
+  background-size: 75px 75px, 75px 75px,
+                   15px 15px, 15px 15px;
+}
+```
+
+- [Demo: bluepring](http://dabblet.com/gist/43bde2086e9d549fb844)
+
+### 水玉模様
+```css
+E {
+  background: #655;
+  background-image: radial-gradient(tan 30%, transparent 0);
+  background-size: 30px 30px;
+}
+```
+
+```css
+E {
+  background: #655;
+  background-image: 
+    radial-gradient(tan 30%, transparent 0),
+    radial-gradient(tan 30%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+```
+
+- [Demo: polka](http://dabblet.com/gist/cd33da5d1a48046746cd)
+
+正しく表示されるためには、2つ目のグラデーションの `background-position` はタイルのサイズの半分にする必要があります
+
+```scss
+@mixin polka($size, $dot, $base, $accent) {
+  background: $base;
+  background-image:
+    linear-gradient($accent, $dot, transparent 0),
+    linear-gradient($accent, $dot, transparent 0);
+  background-size: $size $size;
+  background-position: 0 0, $size/2 $size/2;
+}
+
+@include polka(30px, 30%, #655, tan);
+```
