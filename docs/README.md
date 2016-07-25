@@ -3,7 +3,7 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 
 ## Modules
 - CSS Conditional Rules Module Level 3
-  - @supports
+  - [@supports](supports.md)
 
 ## 調べたもの
 - [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
