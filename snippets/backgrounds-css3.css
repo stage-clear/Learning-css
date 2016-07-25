@@ -38,6 +38,6 @@ div {
   background-image: url('monkey.svg'), url('landscape.jpg');
   background-size: auto 80%;
   background-size: contain;
-  background-size: padding-box;
+  background-clip: padding-box;
   background-origin: border-box;
 }
