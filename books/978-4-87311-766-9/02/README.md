@@ -250,3 +250,76 @@ E {
 
 @include polka(30px, 30%, #655, tan);
 ```
+
+### 市松模様
+```css
+E {
+  background: #eee;
+  background-image:
+    linear-gradient(45deg, #bbb 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, #bbb 0),
+    linear-gradient(45deg, #bbb 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, #bbb 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px, 15px 15px, 30px 30px;
+}
+
+E {
+  background-image: 
+    linear-gradient(45deg,
+      rgba(0,0,0,.25) 25%, transparent 0,
+      transparent 75%, rgba(0,0,0,.25) 0
+    ),
+    linear-gradient(45deg,
+      rgba(0,0,0,.25) 25%, transparent 0,
+      transparent 75%, rgba(0,0,0,.25) 0
+    );
+  background-position: 0 0, 15px 15px;
+  background-size: 30px 30px;
+}
+```
+
+- [Demo: checker-board](http://dabblet.com/gist/4f7ca0749582b1bd7527)
+
+```scss
+@mixin checkerboard($size, $base, $accent: rgba(0,0,0,.25)) {
+  background: $base;
+  background-image: 
+    linear-gradient(45deg,
+      $accent 25%, transparent 0,
+      transparent 75%, $accent 0
+    ),
+    linear-gradient(45deg,
+      $accent 25%, transparent 0,
+      transparent 75%, $accenst 0
+    );
+  background-position: 0 0, $size $size;
+  background-size: 2*$size 2*$size;
+}
+
+/* Usage */
+@include checkboard(15px, #58a, tan);
+```
+
+これでも十分に長いコードなので、実際にはSVGの利用をおすすめします
+```xml
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="100" height="100" fill-opacity=".25">
+  <rect x="50" width="50" height="50"/>
+  <rect y="50" width="50" height="50"/>
+</svg>
+```
+
+```css
+E {
+  background: #eee url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" \
+      width="100" height="100" fill-opacity=".25">\
+      <rect x="50" width="50" height="50"/>\
+      <rect y="50" width="50" height="50"/>\
+    </svg>');
+  background-size: 30px 30px;
+}
+```
+
+- [Demo: checkboard-svg](http://dabblet.com/gist/5d3cacead6f134da842e)
