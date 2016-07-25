@@ -323,3 +323,10 @@ E {
 ```
 
 - [Demo: checkboard-svg](http://dabblet.com/gist/5d3cacead6f134da842e)
+
+__links__  
+
+- [Bennett Feely によるパターンのギャラリー](http://bennettfeely.com/gradients/)
+- [ブレンドモード](w3.org/TR/compositing-1)
+
+## 7. （ほぼ）ランダムは背景
