@@ -429,3 +429,102 @@ background-size: auto, 300px 100%, 109px 100%;
 background-repeat: repeat-x;
 }
 ```
+
+## 8. 1つの画像によるボーダー
+
+```css
+E {
+  padding: 1em;
+  border: 1em solid transparent;
+  background: 
+    linear-gradient(white, white),
+    url(path/to/image);
+  background-size: cover;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+/* 短縮記法を使う */
+E {
+  padding: 1em;
+  border: 1em solid transparent;
+  background: 
+    linear-gradient(white, white) padding-box,
+    url(path/to/image) border-box 0 / cover;
+}
+```
+
+:arrow_forward: [continuous-image-borders](http://dabblet.com/gist/55b5f131c45702a55684)
+
+グラデーションを使ったパターンにも同じテクニックが適用できます。
+
+```css
+E {
+  padding: 1em;
+  border: 1em solid transparent;
+  background: 
+    linear-gradient(white, white) padding-box,
+    repeating-linear-gradient(-45deg,
+      red 0, red 12.5%,
+      transparent 0, transparent 25%,
+      #58a 0, #58a 37.5%,
+      transparent 0, transparent 50%
+    )
+    0 / 5em 5em;
+}
+
+/* これは border-image にも適用できます */
+E {
+  padding: 1em;
+  border: 16px solid transparent;
+  border-image: 16 repeating-linear-gradient(-45deg, 
+    red 0, red 1em,
+    transparent 0, transparent 2em,
+    #58a 0, #58a 3em,
+    transparent 0, transparent 4em
+  );
+}
+/** NOTE
+ * border-image を使ったアプローチにはいくつか注意点もあります
+ * - border-width を変更するたびに、border-image-slice も変更しなければなりません
+ * - border-image-slice では単位として em を指定できないためボーダーの幅はピクセル単位で指定する必要があります
+ * - ストライプの幅はカラーストップの位置として表現されるため、変更の際には4箇所の修正が必要です
+ */
+```
+
+:arrow_forward: [vintage-envelope](http://dabblet.com/gist/e3cfcb094e65d85df847)
+
+このテクニックは marching ants border (アリの行列ボーダー)の作成にも適用できます。
+
+```css
+@keyframes ants {
+  to { background-position: 100% }
+}
+
+.marching-ants {
+  padding: 1em;
+  border: 1px solid transparent;
+  background: 
+    linear-gradient(white, white) padding-box,
+    repeating-linear-gradient(-45deg,
+      black 0, black 25%, white 0, white 50%
+    ) 0 / .6em .6em;
+  animation: ants 12s linear infinite;
+}
+```
+
+:arrow_forward: [marching-ants](http://dabblet.com/gist/f26dddc71730c3847153)
+
+
+```css
+E {
+  border-top: .2em solid transparent;
+  border-image: 100% 0 0 linear-gradient(90deg, 
+    currentColor 4em,
+    transparent 0
+  );
+  padding-top: 1em;
+}
+```
+
+:arrow_forward: [footnote](http://dabblet.com/gist/9483cc7012049f2c808e)
