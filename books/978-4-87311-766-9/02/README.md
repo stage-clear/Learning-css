@@ -7,7 +7,7 @@ E {
   background-clip: paddin-box;
 }
 ```
-- :arrow_forward: [translucent-borders](http://dabblet.com/gist/012289cc14106a1bd7a5)
+:arrow_forward: [translucent-borders](http://dabblet.com/gist/012289cc14106a1bd7a5)
 
 ## 2. 複数のボーダー
 ### box-shadow を使った解決策
@@ -21,7 +21,7 @@ E {
 }
 ```
 
-- [Demo: multiple-borders](http://dabblet.com/gist/525eb8e9cdade71723c1)
+:arrow_forward: [multiple-borders](http://dabblet.com/gist/525eb8e9cdade71723c1)
 
 ### アウトラインを使った解決策
 - ボーダーは2つまでしか表示できません
@@ -45,7 +45,7 @@ E {
 }
 ```
 
-- [Demo: extended-bg-position](http://dabblet.com/gist/0f226e63595d1bef88cb)
+:arrow_forward: [extended-bg-position](http://dabblet.com/gist/0f226e63595d1bef88cb)
 
 ### background-origin を使った解決策
 ```css
@@ -56,7 +56,7 @@ E {
 }
 ```
 
-- [Demo: background-origin](http://dabblet.com/gist/0f19ac5d28d0aa7b6c60)
+:arrow_forward: [background-origin](http://dabblet.com/gist/0f19ac5d28d0aa7b6c60)
 
 ### calc() を使った解決策
 ```css
@@ -85,7 +85,7 @@ E {
 }
 ```
 
-- [Demo: inner-rounding](http://dabblet.com/gist/170fe436f290083cc24c)
+:arrow_forward: [inner-rounding](http://dabblet.com/gist/170fe436f290083cc24c)
 
 ## 5. ストライプ模様の背景
 ### 解決策
@@ -102,7 +102,7 @@ F {
 }
 ```
 
-- [Demo: horizontal-stripes](http://dabblet.com/gist/119dbf7f0c76dba7b7ee)
+:arrow_forward: [horizontal-stripes](http://dabblet.com/gist/119dbf7f0c76dba7b7ee)
 
 ### 縦のストライプ
 ```css
@@ -112,7 +112,7 @@ E {
 }
 ```
 
-- [Demo: vertical-stripes](http://dabblet.com/gist/1b4983062fd2b4d7e60e)
+:arrow_forward: [vertical-stripes](http://dabblet.com/gist/1b4983062fd2b4d7e60e)
 
 ### 斜めのストライプ
 ```css
@@ -138,7 +138,7 @@ E {
 }
 ```
 
-- [Demo: diagonal-strips](http://dabblet.com/gist/abeab80934fc26e6538e)
+:arrow_forward: [diagonal-strips](http://dabblet.com/gist/abeab80934fc26e6538e)
 
 ### よりよい斜めのストライプ
 ```css
@@ -149,7 +149,7 @@ E {
 }
 ```
 
-- [Demo: diagonal-stripes-60deg](http://dabblet.com/gist/5646121210b0c99c94a7)
+:arrow_forward: [diagonal-stripes-60deg](http://dabblet.com/gist/5646121210b0c99c94a7)
 
 45度の場合は、`linear-gradient` と `repeating-linear-gradient` の両方の
 アプローチを組み合わせることでカラーストップを減らせます
@@ -175,7 +175,7 @@ E {
 }
 ```
 
-- [Demo: subtle-stripes](http://dabblet.com/gist/aa50d296a8ec07cf7334)
+:arrow_forward: [subtle-stripes](http://dabblet.com/gist/aa50d296a8ec07cf7334)
 
 ## 6. 複雑な背景のパターン
 ### 格子模様
@@ -212,7 +212,7 @@ E {
 }
 ```
 
-- [Demo: bluepring](http://dabblet.com/gist/43bde2086e9d549fb844)
+:arrow_forward: [bluepring](http://dabblet.com/gist/43bde2086e9d549fb844)
 
 ### 水玉模様
 ```css
@@ -234,7 +234,7 @@ E {
 }
 ```
 
-- [Demo: polka](http://dabblet.com/gist/cd33da5d1a48046746cd)
+:arrow_forward: [polka](http://dabblet.com/gist/cd33da5d1a48046746cd)
 
 正しく表示されるためには、2つ目のグラデーションの `background-position` はタイルのサイズの半分にする必要があります
 
@@ -279,7 +279,7 @@ E {
 }
 ```
 
-- [Demo: checker-board](http://dabblet.com/gist/4f7ca0749582b1bd7527)
+:arrow_forward: [checker-board](http://dabblet.com/gist/4f7ca0749582b1bd7527)
 
 ```scss
 @mixin checkerboard($size, $base, $accent: rgba(0,0,0,.25)) {
@@ -322,7 +322,7 @@ E {
 }
 ```
 
-- [Demo: checkboard-svg](http://dabblet.com/gist/5d3cacead6f134da842e)
+:arrow_forward: [checkboard-svg](http://dabblet.com/gist/5d3cacead6f134da842e)
 
 __links__  
 
@@ -359,4 +359,73 @@ E {
 Alex Walker はこのテクニックに The Cicade Principle、つまり「セミの原理」と名付けました。
 素数を使って表示上のランダムさを向上させるというアイデアを考案したのは彼です。
 
-- :arrow_forward: [cicanimation](http://dabblet.com/gist/ea53f3bee9a7f1439aa7)
+:arrow_forward: [cicanimation](http://dabblet.com/gist/ea53f3bee9a7f1439aa7) - 二度と同じ繰り返しのないアニメーション  
+:arrow_forward: [cicada-stripes](http://dabblet.com/gist/4b4ad05f4c1b5259066f)
+
+
+```css
+/**
+ * Eric Meyer によるアイデア
+ * @see http://meyerweb.com/eric/css/tests/circadients.html
+ */
+
+Example1 {
+  background-image: linear-gradient(90deg,
+    rgba(171, 191, 196, .6),
+    rgba(171, 191, 196, 8) 50%,
+    rgba(255, 0, 0, 0) 50%,
+    rgba(255, 0, 0, 0)
+  ),
+  linear-gradient(90deg,
+    rgba(203, 238, 153, .7),
+    rgba(203, 138, 153, .7) 49%,
+    rgba(203, 138, 153, .5) 50%,
+    rgba(255, 0, 0, 0) 50%,
+    rgba(255, 0, 0, 0)
+  ),
+  linear-gradient(90deg,
+    rgba(220, 209, 185, 0) 0%,
+    rgba(220, 209, 285, 0) 20%,
+    rgba(220, 209, 185, .4) 20%,
+    rgba(220, 209, 185, .8) 80%,
+    rgba(255, 0, 0, 0) 80%,
+    rgba(255, 0, 0, 0)
+  );
+  background-size: 29px 100%, 37px 100%, 53px 100%;
+}
+
+Example2 {
+  background-image: linear-gradient(0deg,
+    rgba(255, 128, 128, .25),
+    rgba(255, 128, 128, 0) 75%
+  ),
+  linear-gradient(89deg,
+    transparent,
+    transparent 30%,
+    #510A0E 35%,
+    #510A0E 40%,
+    #61100F 43%,
+    #B93F3A 50%,
+    #4B0408 55%,
+    #6A0F18 60%,
+    #651015 65%,
+    #510A0E 70%,
+    #510A0E 70%,
+    rgba(255, 128, 128, 0) 80%,
+    transparent
+  ),
+  linear-gradient(92deg,
+    #510A0E,
+    #510A0E 20%,
+    #61100F 25%,
+    #B93F3A 40%,
+    #4B0408 50%,
+    #6A0F18 70%,
+    #651015 80%,
+    #510A0E 90%,
+    #510A0E
+  );
+background-size: auto, 300px 100%, 109px 100%;
+background-repeat: repeat-x;
+}
+```
