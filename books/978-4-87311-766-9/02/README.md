@@ -7,7 +7,7 @@ E {
   background-clip: paddin-box;
 }
 ```
-- [Demo: translucent-borders](http://dabblet.com/gist/012289cc14106a1bd7a5)
+- :arrow_forward: [translucent-borders](http://dabblet.com/gist/012289cc14106a1bd7a5)
 
 ## 2. 複数のボーダー
 ### box-shadow を使った解決策
@@ -359,4 +359,4 @@ E {
 Alex Walker はこのテクニックに The Cicade Principle、つまり「セミの原理」と名付けました。
 素数を使って表示上のランダムさを向上させるというアイデアを考案したのは彼です。
 
-- [:arrow_forward: Demo: cicanimation](http://dabblet.com/gist/ea53f3bee9a7f1439aa7)
+- :arrow_forward: [cicanimation](http://dabblet.com/gist/ea53f3bee9a7f1439aa7)
