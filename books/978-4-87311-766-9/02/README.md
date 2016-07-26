@@ -330,3 +330,33 @@ __links__
 - [ブレンドモード](w3.org/TR/compositing-1)
 
 ## 7. （ほぼ）ランダムは背景
+
+```css
+E {
+  background: hsl(20, 40%, 90%);
+  background-image: 
+    linear-gradient(90deg, #fb3 10px, transparent 0),
+    linear-gradient(90deg, #ab4 20px, transparent 0),
+    linear-gradient(90deg, #655 20px, transparent 0);
+  background-size: 80px 100%, 60px 100%, 40px 100%;
+}
+/* 40 60 80 の最小公倍数は 240 なので 240px ごとに
+ * 規則性が生じます
+ * 素数の最小公倍数は、それぞれの積となるので、素
+ * 数を使います
+ */
+
+E {
+  background: hsl(20, 40%, 90%);
+  background-image: 
+    linear-gradient(90deg, #fb3 11px, transparent 0),
+    linear-gradient(90deg, #ab4 23px, transparent 0),
+    linear-gradient(90deg, #655 41px, transparent 0);
+  background-size: 41px 100%, 61px 100%, 83px 100%;
+}
+```
+
+Alex Walker はこのテクニックに The Cicade Principle、つまり「セミの原理」と名付けました。
+素数を使って表示上のランダムさを向上させるというアイデアを考案したのは彼です。
+
+- [:arrow_forward: Demo: cicanimation](http://dabblet.com/gist/ea53f3bee9a7f1439aa7)
