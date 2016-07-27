@@ -312,3 +312,156 @@ nav.right > a::before {
   }
 }
 ```
+
+:arrow_forward: [Animated pie chart](http://dabblet.com/gist/722909b9808c14eb7300)
+
+__例) インラインから値を指定する__
+
+```html
+<div class="pie">20%</div>
+<div class="pie">60%</div>
+```
+
+```js
+const pies = Array.from(document.querySelector('.pie'));
+pies.forEach(pie => {
+  const p = parseFloat(pie.textContent);
+  p.style.animationDelay = '-' + p + 's';
+});
+```
+
+```css
+.pie {
+  position: relative;
+  width: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  background: yellowgreen;
+  background-image: linear-gradient(to right, transparent 50%, #655 0);
+  color: transparent;
+  text-align: center;
+}
+
+@keyframes spin {
+  to { 
+    transform: rotate(.5turn);
+  }
+}
+
+@keyframes bg {
+  50% { 
+    background: #655;
+  }
+}
+
+.pie::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 50s linear infinite,
+             bg 100s step-end infinite;
+  animation-play-state: paused;
+  animation-delay: inherit;
+}
+```
+
+:arrow_forward: [Static pie charts](http://dabblet.com/gist/66e1e52ac2a44ad87aa4)
+
+#### SVG を使った解決策
+
+```html
+<svg width="100" height="100">
+  <circle r="25" cx="50" cy="50"/>
+</svg>
+```
+
+```css
+svg {
+  transform: rotate(-90deg);
+  background: yellowgreen;
+  border-radius: 50%;
+}
+
+circle {
+  fill: yellowgreen;
+  stroke: #655;
+  stroke-width: 50;
+  stroke-dasharray: 0 158; /* 158 = 2π × 50(<stroke-width>) */
+}
+
+/* 回す */
+circle {
+  stroke-dasharray: 0 158;
+  animation: fillup 5s linear infinite;
+}
+
+@keyframes fillup {
+  to {
+    stroke-dasharray: 158 158;
+  }
+}
+```
+
+__例) 円周が限りなく100に近づくように半径を指定すれば...__  
+円形が限りなく100に近づくように半径を指定すれば、`stroke-dasharray` に
+パーセントをそのまま記述でき、面倒な計算が必要なくなります
+```html
+<svg viewBox="0 0 32 32">
+  <circle r="16" cx="16" cy="16"/>
+</svg>
+```
+
+```css
+svg {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-90deg);
+  background: yellowgreen;
+  border-radius: 50%;
+}
+
+circle {
+  fill: yellowgreen;
+  stroke: #655;
+  stroke-width: 32;
+  stroke-dasharray: 38 100; /* for 38% */
+}
+```
+
+__例) 動的に値を取得__
+
+```html
+<div class="pie">20%</div>
+<div class="pie">60%</div>
+```
+
+```js
+const pies = Array.from(document.querySelectorAll('.pies'));
+pies.forEach(pie => {
+  const p = parsetFloat(pie.textContent);
+  const NS = 'http://www.w3.org/2000/svg';
+  
+  let svg = document.createElementNS(NS, 'svg');
+  let circle = document.createElementNS(NS, 'circle');
+  let title = document.createElementNS(NS, 'title');
+  circle.setAttribute('r', 16);
+  circle.setAttribute('cx', 16);
+  circle.setAttribute('cy', 16);
+  circle.setAttribute('stroke-dasharray', p + ' 100');
+  svg.setAttribute('viewBox', '0 0 32 32');
+  title.textContent = pie.textContent;
+  pie.textContent = '';
+  svg.appendChild(title);
+  svg.appendChild(circle);
+  pie.appendChild(svg);
+});
+```
+
+:arrow_forward: [Pie charts with SVG](http://dabblet.com/gist/4696e4c6700fe9f346d8)
+
