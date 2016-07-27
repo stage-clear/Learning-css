@@ -7,9 +7,8 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
 
 ## Keywords
-- [詳細度](docs/Specificity.md)
+- [詳細度](docs/specificity.md)
 - [単位について](https://gist.github.com/kesuiket/d32b24f970a2f5311de2)
-
 
 ## Refferences
 - [W3C CSS](http://www.w3.org/TR/#tr_CSS)
