@@ -15,7 +15,7 @@ CSS2.1 で定義されている機能を拡張したものについては、3と
 - [CSS Cascading and Inheritance](https://www.w3.org/TR/css-cascade-3)
 - [CSS Color](https://www.w3.org/TR/css3-color)
 - [Selectors](https://www.w3.org/TR/selectors)
-- [CSS  Backgrounds & Borders](https://www.w3.org/TR/css3-background)
+- [CSS Backgrounds & Borders](https://www.w3.org/TR/css3-background)
 - [CSS Values and Units](https://www.w3.org/TR/css-values-3)
 - [CSS Text](https://www.w3.org/TR/css-text-3)
 - [CSS Text Decoration](https://www.w3.org/TR/css-text-decor-3)
