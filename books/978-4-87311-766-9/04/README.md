@@ -46,7 +46,7 @@ E {
 
 ## 17. 色調の調整
 ### フィルターを使った解決策 
-[:warning: Lmited Support]
+:warning: Lmited Support
 
 ```css
 /**
@@ -62,10 +62,12 @@ img:focus {
   filter: none;
 }
 ```
+:arrow_forward: [colot-tint-filter](http://dabblet.com/gist/b338c9940a31b727b7a9)
 
 ### ブレンドモードを使った解決策
-[:warning: Limited Support]
+:warning: Limited Support
 
+__例) `<img>` に対してブレンドモードを適用する__
 ```html
 <a href="#something">
   <img src="path/to/image">
@@ -74,6 +76,36 @@ img:focus {
 
 ```css
 a {
+  display: block;
   background: hsl(335, 100%, 50%);
 }
+img {
+  mix-blend-mode: luminosity;
+}
 ```
+
+__例) 背景にブレンドモードを適用する__
+```html
+<div class="tinted-image" style="background-image: url(path/to/image)">
+</div>
+```
+
+```css
+.tinted-image {
+  width: 640px;
+  height: 440px;
+  background-size: cover;
+  background-color: hsl(335, 100%, 50%);
+  background-blend-mode: luminosity;
+  transition: .5s background-color;
+}
+.tinted-image:hover {
+  background-color: transparent;
+}
+```
+:arrow_forward: [color-tint](http://dabblet.com/gist/0dced2852818c0f555e9)
+
+> Dubley Storey は、ブレンドモードとアニメーションを組み合わせたトリックを考案しました。
+> [Create Monochromatic Color-Tinted Images With CSS blend](http://thenewcode.com/888/Create-Monochromatic-Color-Tinted-Images-With-CSS-blend-modes)
+
+## 18. 曇りガラスの効果
