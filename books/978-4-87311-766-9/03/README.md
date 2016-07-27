@@ -274,3 +274,41 @@ nav.right > a::before {
 :arror_forward: [trapezoid-tabs](http://dabblet.com/gist/1345dc9399dc8e794502)
 
 ### 14. シンプルな円グラフ
+#### トランスフォームを使った解決策
+
+```html
+<div class="pie"></div>
+```
+
+```css
+.pie {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: yellowgreen;
+  background-image: linear-gradient(to right, transparent 50%, #655 0);
+}
+.pie::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transoform-origin: left;
+  animation: spin 3s linear infinite,
+             bg 6s step-end infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(.5turn);
+  }
+}
+
+@keyframes bg {
+  50% {
+    background: #655;
+  }
+}
+```
