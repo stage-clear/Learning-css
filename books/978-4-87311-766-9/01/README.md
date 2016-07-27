@@ -11,24 +11,24 @@
 
 ### CSS3, CSS4,そしてその他の創造物たち
 CSS2.1 で定義されている機能を拡張したものについては、3というレベル番号が与えられました
-- [CSS Syntax](w3.org/TR/css-syntax-3)
-- [CSS Cascading and Inheritance](w3.org/TR/css-cascade-3)
-- [CSS Color](w3.org/TR/css3-color)
-- [Selectors](w3.org/TR/selectors)
-- [CSS  Backgrounds & Borders](w3.org/TR/css3-background)
-- [CSS Values and Units](w3.org/TR/css-values-3)
-- [CSS Text](w3.org/TR/css-text-3)
-- [CSS Text Decoration](w3.org/TR/css-text-decor-3)
-- [CSS Fonts](w3.org/TR/css3-fonts)
-- [CSS Basic User Interface](w3.org/TR/css3-ui)
+- [CSS Syntax](https://www.w3.org/TR/css-syntax-3)
+- [CSS Cascading and Inheritance](https://www.w3.org/TR/css-cascade-3)
+- [CSS Color](https://www.w3.org/TR/css3-color)
+- [Selectors](https://www.w3.org/TR/selectors)
+- [CSS  Backgrounds & Borders](https://www.w3.org/TR/css3-background)
+- [CSS Values and Units](https://www.w3.org/TR/css-values-3)
+- [CSS Text](https://www.w3.org/TR/css-text-3)
+- [CSS Text Decoration](https://www.w3.org/TR/css-text-decor-3)
+- [CSS Fonts](https://www.w3.org/TR/css3-fonts)
+- [CSS Basic User Interface](http://www.w3.org/TR/css3-ui)
 
 一方、まったく新しい概念を表すモジュールには1というレベル番号が与えられました
-- [CSS Transforms](w3.org/TR/css-transform-1)
-- [Compositiong and Blending](w3.org/TR/compositiong-1)
-- [Filter Effects](w3.org/filter-effects-1)
-- [CSS Masking](w3.org/TR/css-masking-1)
-- [CSS Flexible Box Layout](w3.org/TR/css-flexbox-1)
-- [CSS Grid Layout](w3.org/TR/css-grid-1)
+- [CSS Transforms](https://www.w3.org/TR/css-transform-1)
+- [Compositiong and Blending](https://www.w3.org/TR/compositiong-1)
+- [Filter Effects](https://www.w3.org/filter-effects-1)
+- [CSS Masking](https://www.w3.org/TR/css-masking-1)
+- [CSS Flexible Box Layout](https://www.w3.org/TR/css-flexbox-1)
+- [CSS Grid Layout](https://www.w3.org/TR/css-grid-1)
 
 __CSS 3という言葉は流行していますが、CSS3そのものを定義した仕様はどこにもありません__
 
@@ -38,7 +38,7 @@ __CSS 3という言葉は流行していますが、CSS3そのものを定義し
 ### 重複を最小限に抑える
 #### 保守の容易さと簡潔さの両立
 #### currentColor
-- [CSS Color Level3](w3.org/TR/css3-color)
+- [CSS Color Level3](https://www.w3.org/TR/css3-color)
 
 #### 継承 _Inherit_
 ### 数字ではなく自分の眼に頼る
