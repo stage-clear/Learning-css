@@ -18,7 +18,7 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
   - [Specificity](specificity.md) - _詳細度_ 固有性スコアなど
 - [CSS Transforms](https://www.w3.org/TR/css-transform-1)
 - [Compositiong and Blending](https://www.w3.org/TR/compositiong-1)
-- [Filter Effects](https://www.w3.org/filter-effects-1)
+- [Filter Effects](https://www.w3.org/TR/filter-effects/)
 - [CSS Masking](https://www.w3.org/TR/css-masking-1)
 - [CSS Flexible Box Layout](https://www.w3.org/TR/css-flexbox-1)
 - [CSS Grid Layout](https://www.w3.org/TR/css-grid-1)
