@@ -5,7 +5,7 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - CSS Conditional Rules Module Level 3
   - [@supports](supports.md)
 - Selectors Level 3
-  - [詳細度](specificity.md) - 固有性スコアなど
+  - [Specificity](specificity.md) - _詳細度_ 固有性スコアなど
 - [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/) :arrow_forward: W3
 
 ## Keywords
