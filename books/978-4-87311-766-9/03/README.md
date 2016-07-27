@@ -208,8 +208,8 @@ E {
 
 :arrow_forward: [baveld-corners-clipped](http://dabblet.com/gist/4a88c463afdb0778e973)
 
-### 13. 台形のタブ
-#### 解決策
+## 13. 台形のタブ
+### 解決策
 
 ```css
 E {
@@ -273,8 +273,8 @@ nav.right > a::before {
 ```
 :arror_forward: [trapezoid-tabs](http://dabblet.com/gist/1345dc9399dc8e794502)
 
-### 14. シンプルな円グラフ
-#### トランスフォームを使った解決策
+## 14. シンプルな円グラフ
+### トランスフォームを使った解決策
 
 ```html
 <div class="pie"></div>
@@ -373,7 +373,7 @@ pies.forEach(pie => {
 
 :arrow_forward: [Static pie charts](http://dabblet.com/gist/66e1e52ac2a44ad87aa4)
 
-#### SVG を使った解決策
+### SVG を使った解決策
 
 ```html
 <svg width="100" height="100">
