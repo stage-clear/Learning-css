@@ -1,4 +1,4 @@
-# CSS Secret
+# CSS Secrets
 ## Table of Contents
 1. [x] [イントロダクション](01/)
 1. [x] [背景とボーダー](02/)
