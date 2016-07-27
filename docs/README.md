@@ -16,5 +16,6 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 ## Refferences
 - [W3C CSS](http://www.w3.org/TR/#tr_CSS)
 - [W3C CSS current work & how to participate](http://www.w3.org/Style/CSS/current-work)
+- [CSS3 - CSS | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS3) - CSS モジュールの状態<sub>など</sub>
 - [ウェブ関連仕様 日本語訳](http://www.hcn.zaq.ne.jp/___/WEB/index.html)
 - ([W3Cスタイルシート仕様の歩き方みたいなもの](http://momdo.hatenablog.jp/entry/20150911/1441977908))
