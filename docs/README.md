@@ -6,7 +6,7 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
   - [@supports](supports.md)
 - Selectors Level 3
   - [詳細度](specificity.md) - 固有性スコアなど
-- [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
+- [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/) :arrow_forward: W3
 
 ## Keywords
 - [単位について](https://gist.github.com/kesuiket/d32b24f970a2f5311de2)
