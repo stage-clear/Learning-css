@@ -241,3 +241,5 @@ E {
   @include folded-corner(#58a, 2em, 49deg);
 }
 ```
+
+:arror_forward: [folded-corner-mixin](http://codepen.io/leaverou/pen/raGaNR)
