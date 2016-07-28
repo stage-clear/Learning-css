@@ -109,3 +109,135 @@ __例) 背景にブレンドモードを適用する__
 > [Create Monochromatic Color-Tinted Images With CSS blend](http://thenewcode.com/888/Create-Monochromatic-Color-Tinted-Images-With-CSS-blend-modes)
 
 ## 18. 曇りガラスの効果
+### 解決策
+```html
+<main>
+  <blockquote>
+    "The only way to get rid of a temptation[...]"
+    <footer>---
+      <cite>
+        Oscar Wilde,
+        The Picture of Drian Gray
+      </cite>
+    </footer>
+  </blockquote>
+</main>
+```
+
+```css
+body, main::before {
+  background: url(path/to/image) 0 / cover fixed;
+}
+
+main {
+  position: relative;
+  background: hsla(0,0%,100%,.3);
+  overflow: hidden;
+}
+
+main::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  filter: blur(20px);
+  margin: -30px;
+}
+```
+
+:arrow_forward: [Frosted glass](http://dabblet.com/gist/d9f243ddd7dbffa341a4)
+
+## 19. 角の折り返し
+### 45度の場合の解決策
+
+```css
+E {
+  background: #58a;
+  background: 
+    linear-gradient(to left bottom,
+      transparent 50%, rgba(0,0,0,.4) 0
+    ) no-repeat 100% 0 / 2em 2em,
+    linear-gradient(-135deg,
+      transparent 1.5em, #58a 0
+    );
+}
+```
+- 斜め方向のサイズを `2em` に保つなら `background-size` を √2倍します
+- 縦横のサイズを `2em` に保つならカラーストップの位置を √2分の1にします
+
+:arrow_forward: [Folded corner](http://dabblet.com/gist/83b4d6bc907aa5ab576a)
+
+### 他の角度での解決策
+
+```css
+E {
+  background:#58a;
+  background:
+    linear-gradient(to left bottom,
+      transparent 50%, rgba(0,0,0,.4) 0
+    ) no-repeat 100% 0 / 3em 1.73em,
+    linear-gradient(-150deg,
+      transparent 1.5em, #58a 0
+    );
+}
+```
+
+```css
+.note {
+  position: relative;
+  background: #58a;
+  background: linear-gradient(-150deg,
+    transparent 1.5em, #58a 0
+  );
+  border-radius: .5em;
+}
+.note::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  background: linear-gradient(to left bottom,
+    transparent 50%, rgba(0,0,0,.2) 0, rgba(0,0,0,.4)
+  ) 100% 0 no-repeat;
+  width: 1.73em;
+  height: 3em;
+  transform: translateY(-1.3em) rotate(-30deg);
+  transform-origin: bottom right;
+  border-bottom-left-radius: inherit;
+  box-shadow: -.2em .2em .3em -.1em rgba(0,0,0,.15);
+}
+```
+
+:arrow_forward: [folded-corner-realistic](http://dabblet.com/gist/bc32dc20adea2261c731)
+
+```scss
+@mixin folded-corner($background, $size, $angle: 30deg) {
+  position: relative;
+  background: #background;
+  background: linear-gradient($angle - 180deg,
+    transparent $size, $background 0
+  );
+  border-radius: .5em;
+  
+  $x: $size / sin($angle);
+  $y: $size / cos($angle);
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    background: linear-gradient(to left bottom,
+      transparent 50%, rgba(0,0,0,.2) 0, rgba(0,0,0,.4)
+    ) 100% 0 no-repeat;
+    width: $y;
+    height: $x;
+    transform: translateY($y - $x) rotate(2 * $angle - 90deg);
+    transform-origin: bottom right;
+    border-bottom-left-radius: inherit;
+    box-shadow: -.2em .2em .3em -.1em rgba(0,0,0,.2);
+  }
+}
+
+// Usage:
+.note {
+  @include folded-corner(#58a, 2em, 49deg);
+}
+```
