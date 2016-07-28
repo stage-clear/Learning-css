@@ -6,6 +6,7 @@ E {
   hyphens: auto;
 }
 ```
+:arrow_forward: [hyphenation](http://dabblet.com/gist/e370ba333ae95116e212)
 
 ## 21. 改行の挿入
 ```html
