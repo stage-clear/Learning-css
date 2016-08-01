@@ -242,4 +242,4 @@ E {
 }
 ```
 
-:arror_forward: [folded-corner-mixin](http://codepen.io/leaverou/pen/raGaNR)
+:arrow_forward: [folded-corner-mixin](http://codepen.io/leaverou/pen/raGaNR)
