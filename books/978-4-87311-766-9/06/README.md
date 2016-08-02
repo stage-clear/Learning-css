@@ -203,3 +203,178 @@ main.de-emphasized {
   filter: blur(5px) contrast(.8) brightness(.8);
 }
 ```
+
+:arrow_forward: [De-emphasizing by blurning](http://dabblet.com/gist/1326eb460b0dff91d638)
+
+
+## 34. スクロールを促すヒント
+### 解決策
+```html
+<ul>
+  <li>Start</li>
+  <!-- ... -->
+  <li>End</li>
+</ul>
+```
+
+```css
+ul {
+  overflow: auto;
+  width: 10em;
+  height: 8em;
+  padding: .3em .5em;
+  border: 1px solid silver;
+  background: 
+    linear-gradient(white 15px, hsla(0,0%,100%,0)) no-repeat 0 0 / 100% 50px,
+    radial-gradient(at top, rgba(0,0,0,.2), transparent 70%) no-repeat 0 0 / 100% 15px,
+    linear-gradient(at top, white 15px, hsla(0,0%,100%,0)) no-repeat bottom / 100% 50px,
+    radial-gradient(at top, rgba(0,0,0,.2), transparent 70%) no-repeat bottom / 100% 15px;
+  background-attachment: local, scroll, local, scroll;
+  background-color: white;
+}
+```
+
+:arrow_foward: [Scrolling hints](http://dabblet.com/gist/20205b5fcdd834461e80)
+
+## 35. インタラクティブな画像比較
+### resize を使った解決策
+
+```html
+<div class="image-slider">
+  <div>
+    <img src="path/to/image" alt="Before"/>
+  </div>
+  <img src="path/to/image" alt="After"/>
+</div>
+```
+
+```css
+.image-slider {
+  position: relative;
+  display: inline-block;
+}
+
+.image-slider > div {
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  resize: horizontal;
+}
+
+.image-slider > div::before {
+  content: '';
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 12px; height: 12px;
+  padding: 5px;
+  background: linear-gradient(-45deg, white 50%, transparent 0);
+  background-clip: content-box;
+  cursor: ew-resize;
+}
+
+.image-slider img {
+  display: block;
+  user-select: none;
+}
+```
+
+:arrow_forward: [Interactive image](http://dabblet.com/gist/b7e7fef7dcf9a7161a51)
+
+### 範囲指定の input 要素を使った解決策
+
+```html
+<div class="image-slider">
+  <img src="path/to/image" alt="Before"/>
+  <img src="path/to/image" alt="After"/>
+</div>
+```
+JavaScript で変換します
+
+```html
+<div class="image-slider">
+  <div>
+    <img src="path/to/image" alt="Before"/>
+  </div>
+  <img src="path/to/image" alt="After"/>
+  <input type="range"/>
+</div>
+```
+
+```js
+$$('.image-slider').forEach(function(slider) {
+  // div 要素を生成し、1つ目の画像をラップします
+  var div = document.createElement('div');
+  var img = slider.querySelector('img');
+  slider.insertBefore(div, img);
+  div.appendChild(img);
+  
+  // スライダーを生成します
+  var range = document.createElement('input);
+  range.type = 'range';
+  range.oninput = function() {
+    div.style.width = this.value + '%';
+  };
+  slider.appendChild(range);
+});
+```
+
+```css
+.image-slider {
+  position: relative;
+  display: inline-block;
+}
+
+.image-slider > div {
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
+.image-slider img {
+  display: block;
+  user-select: none;
+}
+
+.image-slider input {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+/*
+ * スライダーを好きなようにスタイル設定するための擬似要素
+ * - ::-moz-track
+ * - ::-ms-track
+ * - ::-webkit-slider-thumb
+ * - ::-moz-range-thumb
+ * - ::-ms-thumb
+ * これらの擬似要素は一貫性がなく不安定で予測できない処理結果
+ * しか得られません。どうしても必要な場合を除いて利用しない
+ */
+
+.image-slider {
+  /* .. */
+  filter: contrast(.5);
+  mix-blend-mode: luminosity;
+}
+
+/*
+ * フィッツの法則に従い、操作可能な領域を大きくする
+ */
+input {
+  /* ... */
+  width: 50%;
+  transform: scale(2);
+  transform-origin: left bottom;
+}
+```
+
+resize プロパティよりも幅広いブラウザでサポートされているというメリットが
+（すくなくとも現時点では）あります。
+
+:arrow_forward: [A "Before And After" Image Comparison Slide Control in HTML5](http://thenewcode.com/819/A-Before-And-After-Image-Comparison-Slide-Control-in-HTML5) - 参考
