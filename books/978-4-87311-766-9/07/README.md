@@ -178,4 +178,132 @@ main {
   width: 18em;
   height: 6em;
 }
+
+/* calc を使う */
+main {
+  position: absolute;
+  top: calc(50% - 3em);
+  left: calc(50% - 9em);
+  width: 18em;
+  height: 6em;
+}
 ```
+:dizzy_face: 幅と高さが固定されている必要があります
+
+```css
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+:dizzy_face: レイアウト全体への影響が大きいため、位置を絶対指定できない場合がよくあります  
+:dizzy_face: 要素の高さがビューポートよりも大きい意図上端が切り取られてしまいます  
+:dizzy_face: 一部のブラウザでは、要素をピクセルとピクセルの間を移動しようとして表示がかすかにぼやけることがあります
+
+:arrow_forward: [Vertical centering abs](http://dabblet.com/gist/cd12fac0e18bb27fb62d)
+
+### ビューポート関連の単位をつかった解決策
+
+```css
+/*
+ * 失敗例:
+ * margin-top や margin-bottom のパーセンテージは
+ * 親要素の幅を基準として解釈されます
+ */
+main {
+  width: 18em;
+  padding: 1em 1.5em;
+  margin: 50% auto 0;
+  transform: translateY(-50%);
+}
+
+main {
+  width: 18em;
+  padding: 1em 1.5em;
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+}
+```
+
+:arrow_forward: [Vertical centering vh](http://dabblet.com/gist/bf12b39d8f5da2b6e5b6)
+
+### Flexbox を使った解決策
+
+> Flexbox を使う場合、 `margin: auto` を指定すると横方向だけでなく縦方向にも中央揃えが行われます
+
+```css
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+}
+```
+
+> Flexbox を使う場合、匿名のコンテナも縦方向の中央揃えが可能です。
+
+```html
+<main>Center me, please!</main>
+```
+
+```css
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18em;
+  height: 10em;
+}
+```
+
+## 41. フッターをビューポート下部に表示する
+### 固定の高さを使った解決策
+
+```html
+<header>
+  <h1>Site name</h1>
+</header>
+<main>
+  <p>Bacon Ipsum dolor sit amet...
+  <!-- Filler text from baconipsum.com --></p>
+</main>
+<footer>
+  <p>&copy; No rights reserved.</p>
+  <p>Made with ♥ by an anonymous pastafarian.</p>
+</footer>
+```
+
+```css
+main {
+  min-height: calc(100vh - <header.height> - <footer.height>);
+}
+
+/* あるいは <header> と <main> の両方をラップし */
+#wrapper {
+  min-height: calc(100vh - <footer.height>);
+}
+```
+
+:arrow_forward: [sticky-footer-fixed](http://dabblet.com/gist/b10c3eb3b7078711a588)
+
+### より柔軟な解決策
+
+```css
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+```
+
+:arrow_forward: [sticky-footer](http://dabblet.com/gist/410e43c60863a8dba193)
+:arrow_forward: [Solved by Flexbox | Sticky Footer](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/)
+
