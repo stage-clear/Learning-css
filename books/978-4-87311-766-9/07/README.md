@@ -306,4 +306,4 @@ main {
 
 :arrow_forward: [sticky-footer](http://dabblet.com/gist/410e43c60863a8dba193)
 :arrow_forward: [Solved by Flexbox | Sticky Footer](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/)
-:arrow_forward: [Sticky Footer Five Ways](https://css-tricks.com/couple-takes-sticky-footer/)
+:arrow_forward: [Sticky Footer, Five Ways](https://css-tricks.com/couple-takes-sticky-footer/)
