@@ -192,7 +192,7 @@ E {
 ```
 
 :arrow_forward: [Contrast Ratio](http://leaverou.github.io/contrast-ratio/) - Accesibility tool  
-:arrow:forward: [Letterpress](http://dabblet.com/gist/80eafefae35d26979972)
+:arrow_forward: [Letterpress](http://dabblet.com/gist/80eafefae35d26979972)
 
 ### フチ付きのテキスト
 #### text-shadow
