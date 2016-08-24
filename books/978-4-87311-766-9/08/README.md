@@ -21,7 +21,7 @@
 }
 ```
 
-:arrow_forward: [bounce](http://dabblet.com/gist/1b37089310d0a5a2d8e6)
+:arrow_forward: [bounce](http://dabblet.com/gist/1b37089310d0a5a2d8e6)  
 :arrow_forward: [animate.css](https://daneden.github.io/animate.css/)
 
 ### 弾むようなトランジション
@@ -99,7 +99,7 @@ input:not(:focus) + .callout {
 }
 ```
 
-:arrow_forward: [frame-by-frame](http://dabblet.com/gist/bcc082518391f45b41dc)
+:arrow_forward: [frame-by-frame](http://dabblet.com/gist/bcc082518391f45b41dc)  
 :arrow_forward: [Sprite sheet animation with steps()](http://simurai.com/blog/2012/12/03/step-animation) - スプライトと steps()  を組み合わせた便利なテクニック
 
 ## 44. 点滅
@@ -141,7 +141,7 @@ input:not(:focus) + .callout {
 }
 ```
 
-:arrow_forward: [blink](http://dabblet.com/gist/46fe09e5f2b97d6f282d)
+:arrow_forward: [blink](http://dabblet.com/gist/46fe09e5f2b97d6f282d)  
 :arrow_forward: [CSS Animations](https://w3.org/TR/css-animations) - W3
 
 ## 45. キー入力のアニメーション
