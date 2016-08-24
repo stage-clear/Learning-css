@@ -291,7 +291,7 @@ E {
 }
 ```
 
-:arrow_forwards: [Extruded](http://dabblet.com/gist/ba8161d038b9c13b99ac)
+:arrow_forward: [Extruded](http://dabblet.com/gist/ba8161d038b9c13b99ac)
 
 ```scss
 @mixin text-3d($color: white, $depth: 5) {
@@ -411,4 +411,4 @@ $$('.circlar').forEach(function(el) {
 });
 ```
 
-:arror_forwards: [Text on a circle](http://dabblet.com/gist/bda1bf6b0c4adbcea63d)
+:arrow_forward: [Text on a circle](http://dabblet.com/gist/bda1bf6b0c4adbcea63d)
