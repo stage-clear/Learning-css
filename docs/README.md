@@ -16,7 +16,9 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
   - [@supports](supports.md)
 - [Selectors](https://www.w3.org/TR/selectors)
   - [Specificity](specificity.md) - _詳細度_ 固有性スコアなど
-- [CSS Transforms](https://www.w3.org/TR/css-transform-1)
+- [CSS Transforms](https://www.w3.org/TR/css3-transitions/)
+- [CSS Animations](https://www.w3.org/TR/css3-animations/)
+  - [Link: Learn CSS Animation](https://cssanimation.rocks/)
 - [Compositiong and Blending](https://www.w3.org/TR/compositiong-1)
 - [Filter Effects](https://www.w3.org/TR/filter-effects/)
 - [CSS Masking](https://www.w3.org/TR/css-masking-1)
