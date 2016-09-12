@@ -8,7 +8,7 @@
   cursor: not-allowed;
 }
 ```
-:arrow_forwad: [disabled](http://dabblet.com/gist/41c8da81742e1ab1d07f)
+:arrow_forward: [disabled](http://dabblet.com/gist/41c8da81742e1ab1d07f)
 
 #### マウスカーソルを隠す
 不特定多数向けのマルチスクリーン端末など
@@ -58,7 +58,7 @@ E::before {
 }
 ```
 
-:arrow_forwards: [Extending the hit area](http://dabblet.com/gist/d76ac0acc80923d47106)
+:arrow_forward: [Extending the hit area](http://dabblet.com/gist/d76ac0acc80923d47106)
 
 ## 31. チェックボックスのカスタマイズ
 ### 解決策
@@ -105,9 +105,9 @@ input[type="checkbox"] {
 }
 ```
 
-:arrow_forward: [Custom checkboxes](http://dabblet.com/gist/e269f10328615254e29e)
-:arrow_forward: [Custom radio and checkbox inputs using css](https://www.thecssninja.com/css/custom-inputs-using-css)
-:arrow_forward: [Bootleg.css](http://labs.thecssninja.com/bootleg/)
+:arrow_forward: [Custom checkboxes](http://dabblet.com/gist/e269f10328615254e29e)  
+:arrow_forward: [Custom radio and checkbox inputs using css](https://www.thecssninja.com/css/custom-inputs-using-css)  
+:arrow_forward: [Bootleg.css](http://labs.thecssninja.com/bootleg/)  
 
 ### トグルボタン
 
@@ -144,8 +144,8 @@ input[type="checkbox"]:active + label {
 - `<div class="overlay">` はよく使われますが、HTML要素が余分に必要となります
 
 ### 擬似要素を使った解決策
-- :astonished: すでに `::before` が指定されている場合にはこのテクニックは適用できません
-- :astonished: 擬似要素にはイベントハンドラを設定できない
+:astonished: すでに `::before` が指定されている場合にはこのテクニックは適用できません  
+:astonished: 擬似要素にはイベントハンドラを設定できない  
 
 ```css
 body.dimmed::before {
@@ -168,12 +168,12 @@ E {
 }
 ```
 
-- :astonished: スクロールするとオーバーレイ表示の橋を超えてしまう
-- :astonished: マウスイベントを補足できません
+:astonished: スクロールするとオーバーレイ表示の橋を超えてしまう  
+:astonished: マウスイベントを補足できません  
 
 :arrow_forward: [Rudimetary overlay](http://dabblet.com/gist/91538b2131d3545035ca)
 
-###f ::backdrop を使った解決策
+### ::backdrop を使った解決策
 :warning: Limited Support
 
 ```css
@@ -182,7 +182,7 @@ dialog::backdrop {
 }
 ```
 
-- :astonished: サポートされているブラウザが非常に限られています
+:astonished: サポートされているブラウザが非常に限られています  
 
 :arrow_forward: [Native modal dialog](http://dabblet.com/gist/bb2121aea259be94c35d)
 
@@ -234,7 +234,7 @@ ul {
 }
 ```
 
-:arrow_foward: [Scrolling hints](http://dabblet.com/gist/20205b5fcdd834461e80)
+:arrow_forward: [Scrolling hints](http://dabblet.com/gist/20205b5fcdd834461e80)
 
 ## 35. インタラクティブな画像比較
 ### resize を使った解決策
@@ -311,7 +311,7 @@ $$('.image-slider').forEach(function(slider) {
   div.appendChild(img);
   
   // スライダーを生成します
-  var range = document.createElement('input);
+  var range = document.createElement('input');
   range.type = 'range';
   range.oninput = function() {
     div.style.width = this.value + '%';
