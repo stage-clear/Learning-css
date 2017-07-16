@@ -26,10 +26,10 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - [CSS Grid Layout](https://www.w3.org/TR/css-grid-1)
 - [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
 
-## Keywords
-- [単位について](https://gist.github.com/kesuiket/d32b24f970a2f5311de2)
+## References:
+- [@support will change your life](http://www.lottejackson.com/learning/supports-will-change-your-life)
 
-## Refferences
+## Links:
 - [W3C CSS](http://www.w3.org/TR/#tr_CSS)
 - [W3C CSS current work & how to participate](http://www.w3.org/Style/CSS/current-work)
 - [CSS3 - CSS | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS3) - CSS モジュールの状態<sub>など</sub>
