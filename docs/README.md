@@ -11,6 +11,8 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - [CSS Text](https://www.w3.org/TR/css-text-3)
 - [CSS Text Decoration](https://www.w3.org/TR/css-text-decor-3)
 - [CSS Fonts](https://www.w3.org/TR/css3-fonts)
+- [CSS Writing Modes](https://www.w3.org/TR/css-writing-modes-3/)
+  - [日本語訳](https://triple-underscore.github.io/css-writing-modes-ja.html)
 - [CSS Basic User Interface](https://www.w3.org/TR/css3-ui)
 - [CSS Conditional Rules Module](https://www.w3.org/TR/css3-conditional/)
   - [@supports](supports.md)
@@ -25,9 +27,12 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - [CSS Flexible Box Layout](https://www.w3.org/TR/css-flexbox-1)
 - [CSS Grid Layout](https://www.w3.org/TR/css-grid-1)
 - [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
+- [CSS Scroll Snap Module Level1](https://drafts.csswg.org/css-scroll-snap/)
 
 ## References:
 - [@support will change your life](http://www.lottejackson.com/learning/supports-will-change-your-life)
+- [Introducing CSS Scroll Snap Points](https://css-tricks.com/introducing-css-scroll-snap-points/)
+- [ブラウザにおける縦書き最新情報 CodeGrid](https://app.codegrid.net/series/2015-vertical-script)
 
 ## Links:
 - [W3C CSS](http://www.w3.org/TR/#tr_CSS)
