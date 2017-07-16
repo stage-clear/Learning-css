@@ -22,6 +22,7 @@
  | CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/) - ページ下部にフッターを配置する
 - [CSS Specificity Graph Generator](https://jonassebastianohlsson.com/specificity-graph/) - 詳細度をグラフ化するサイト
 - [CodePen's Design Patterns](http://codepen.io/guide) - CodePen のスタイルガイド
+- [20 Best CSS Animations on CodeCanyon](https://code.tutsplus.com/tutorials/20-best-css-animations--cms-27561)
 
 
 ## Inspirations:
