@@ -4,6 +4,7 @@
 - [Responsive Web Design Patterns
 ](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=ja) - レスポンシブのレイアウトパターンの呼び名など
 - [あなたはCSSプロパティ"display"をどのくらい知っているだろうか?](http://postd.cc/how-well-do-you-know-display/)
+- [CSS Architexture](http://article.enja.io/articles/css-architecture.html)
 - [The math of CSS locks](https://fvsch.com/code/css-locks/)
 - [CSSでレイアウトするなら絶対覚えておきたい配置のルール](http://webdesignrecipes.com/css-visual-formating-model/)
 
