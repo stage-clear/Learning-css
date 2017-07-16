@@ -1,5 +1,13 @@
-# References
-## Online Tips
+# References:
+
+## References list:
+- [Responsive Web Design Patterns
+](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=ja) - レスポンシブのレイアウトパターンの呼び名など
+- [あなたはCSSプロパティ"display"をどのくらい知っているだろうか?](http://postd.cc/how-well-do-you-know-display/)
+- [The math of CSS locks](https://fvsch.com/code/css-locks/)
+- [CSSでレイアウトするなら絶対覚えておきたい配置のルール](http://webdesignrecipes.com/css-visual-formating-model/)
+
+## Online tutorials and tips:
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/) - 光の当て方などを使った視差効果
 - [A grouped pure CSS parallax demo](http://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/) - CSSのみでのz軸を使った視差効果
 - [HTML5 でマスクを使用する](https://support.google.com/richmedia/answer/6286751?hl=ja)
@@ -14,11 +22,8 @@
 - [CSS Specificity Graph Generator](https://jonassebastianohlsson.com/specificity-graph/) - 詳細度をグラフ化するサイト
 - [CodePen's Design Patterns](http://codepen.io/guide) - CodePen のスタイルガイド
 
-## Knowledge
-- [Responsive Web Design Patterns
-](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=ja) - レスポンシブのレイアウトパターンの呼び名など
 
-## Showcase for inspiration
+## Inspirations:
 - [CSS Framework list](https://gist.github.com/kesuiket/edd918a55cf0154953a9) - CSSフレームワークのリスト
 - [stylesheet](https://stylesheets.co/)
 
