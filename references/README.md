@@ -7,6 +7,7 @@
 - [CSS Architexture](http://article.enja.io/articles/css-architecture.html)
 - [The math of CSS locks](https://fvsch.com/code/css-locks/)
 - [CSSでレイアウトするなら絶対覚えておきたい配置のルール](http://webdesignrecipes.com/css-visual-formating-model/)
+- [Managin the z-index with Sass](https://alexpate.uk/journal/managing-z-index-with-sass/)
 
 ## Online tutorials and tips:
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/) - 光の当て方などを使った視差効果
