@@ -33,6 +33,7 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - [@support will change your life](http://www.lottejackson.com/learning/supports-will-change-your-life)
 - [Introducing CSS Scroll Snap Points](https://css-tricks.com/introducing-css-scroll-snap-points/)
 - [ブラウザにおける縦書き最新情報 CodeGrid](https://app.codegrid.net/series/2015-vertical-script)
+- [CSS3 Writing Modesの仕様解説](http://tategaki.github.io/commentaries/2015/11/09/commentary-writing-modes.html)
 
 ## Links:
 - [W3C CSS](http://www.w3.org/TR/#tr_CSS)
