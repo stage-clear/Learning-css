@@ -1,7 +1,5 @@
 # Documents
-CSSにまつわる語句や事象に関して参考にできるドキュメントなど。
-
-## Modules
+## Modules:
 - [CSS Syntax](https://www.w3.org/TR/css-syntax-3)
 - [CSS Cascading and Inheritance](https://www.w3.org/TR/css-cascade-3)
 - [CSS Color](https://www.w3.org/TR/css3-color)
@@ -11,9 +9,8 @@ CSSにまつわる語句や事象に関して参考にできるドキュメン�
 - [CSS Text](https://www.w3.org/TR/css-text-3)
 - [CSS Text Decoration](https://www.w3.org/TR/css-text-decor-3)
 - [CSS Fonts](https://www.w3.org/TR/css3-fonts)
-- [CSS Writing Modes](https://www.w3.org/TR/css-writing-modes-3/)
+- [CSS Writing Modes](https://www.w3.org/TR/css-writing-modes-3/) [日本語訳](https://triple-underscore.github.io/css-writing-modes-ja.html)
   - [writing-mode - CSS | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/writing-mode)
-  - [日本語訳](https://triple-underscore.github.io/css-writing-modes-ja.html)
 - [CSS Basic User Interface](https://www.w3.org/TR/css3-ui)
 - [CSS Conditional Rules Module](https://www.w3.org/TR/css3-conditional/)
   - [@supports](supports.md)
