@@ -18,7 +18,7 @@
 - [CSS Transforms](https://www.w3.org/TR/css3-transitions/)
 - [CSS Animations](https://www.w3.org/TR/css3-animations/)
   - [Link: Learn CSS Animation](https://cssanimation.rocks/)
-- [Compositiong and Blending](https://www.w3.org/TR/compositiong-1)
+- [Compositing and Blending](https://www.w3.org/TR/compositing-1/) <sup>[日本語訳](https://triple-underscore.github.io/compositing-ja.html) | [MDN](https://developer.mozilla.org/ja/docs/Web/CSS/background-blend-mode)</sup>
 - [Filter Effects](https://www.w3.org/TR/filter-effects/)
 - [CSS Masking](https://www.w3.org/TR/css-masking-1)
 - [CSS Flexible Box Layout](https://www.w3.org/TR/css-flexbox-1)
