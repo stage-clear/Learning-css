@@ -3,14 +3,15 @@
 - [CSS Syntax](https://www.w3.org/TR/css-syntax-3)
 - [CSS Cascading and Inheritance](https://www.w3.org/TR/css-cascade-3)
 - [CSS Color](https://www.w3.org/TR/css3-color)
-- [Selectors](https://www.w3.org/TR/selectors)
+- [Selectors](https://www.w3.org/TR/selectors)<br>
   - [CSS Specificity](specificity.md)
 - [CSS Backgrounds & Borders](https://www.w3.org/TR/css3-background)
 - [CSS Values and Units](https://www.w3.org/TR/css-values-3)
 - [CSS Text](https://www.w3.org/TR/css-text-3)
 - [CSS Text Decoration](https://www.w3.org/TR/css-text-decor-3)
 - [CSS Fonts](https://www.w3.org/TR/css3-fonts)
-- [CSS Writing Modes](https://www.w3.org/TR/css-writing-modes-3/) | [日本語訳](https://triple-underscore.github.io/css-writing-modes-ja.html) | [MDN](https://developer.mozilla.org/ja/docs/Web/CSS/writing-mode)
+- [CSS Writing Modes](https://www.w3.org/TR/css-writing-modes-3/) | <sup>[日本語訳](https://triple-underscore.github.io/css-writing-modes-ja.html) | [MDN](https://developer.mozilla.org/ja/docs/Web/CSS/writing-mode)</sup><br>
+  - [writing-modes](writing-modes.md)
 - [CSS Basic User Interface](https://www.w3.org/TR/css3-ui)
 - [CSS Conditional Rules Module](https://www.w3.org/TR/css3-conditional/)
   - [@supports](supports.md)
@@ -27,8 +28,6 @@
 
 ## References:
 - [Introducing CSS Scroll Snap Points](https://css-tricks.com/introducing-css-scroll-snap-points/)
-- [ブラウザにおける縦書き最新情報 CodeGrid](https://app.codegrid.net/series/2015-vertical-script)
-- [CSS3 Writing Modesの仕様解説](http://tategaki.github.io/commentaries/2015/11/09/commentary-writing-modes.html)
 
 ## Links:
 - [W3C CSS](http://www.w3.org/TR/#tr_CSS)
