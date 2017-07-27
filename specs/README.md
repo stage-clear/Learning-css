@@ -4,6 +4,7 @@
 - [CSS Cascading and Inheritance](https://www.w3.org/TR/css-cascade-3)
 - [CSS Color](https://www.w3.org/TR/css3-color)
 - [Selectors](https://www.w3.org/TR/selectors)
+  - [CSS Specificity](specificity.md)
 - [CSS Backgrounds & Borders](https://www.w3.org/TR/css3-background)
 - [CSS Values and Units](https://www.w3.org/TR/css-values-3)
 - [CSS Text](https://www.w3.org/TR/css-text-3)
@@ -13,8 +14,6 @@
 - [CSS Basic User Interface](https://www.w3.org/TR/css3-ui)
 - [CSS Conditional Rules Module](https://www.w3.org/TR/css3-conditional/)
   - [@supports](supports.md)
-- [Selectors](https://www.w3.org/TR/selectors)
-  - [Specificity](specificity.md) - _詳細度_ 固有性スコアなど
 - [CSS Transforms](https://www.w3.org/TR/css3-transitions/)
 - [CSS Animations](https://www.w3.org/TR/css3-animations/)
   - [Link: Learn CSS Animation](https://cssanimation.rocks/)
