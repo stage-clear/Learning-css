@@ -12,6 +12,7 @@
 - [CSS Fonts](https://www.w3.org/TR/css3-fonts)
 - [CSS Writing Modes](https://www.w3.org/TR/css-writing-modes-3/) <sup>[日本語訳](https://triple-underscore.github.io/css-writing-modes-ja.html) | [MDN](https://developer.mozilla.org/ja/docs/Web/CSS/writing-mode)</sup><br>
   - [writing-modes](writing-modes.md)
+- [CSS Shapes](https://www.w3.org/TR/css-shapes-1/)
 - [CSS Basic User Interface](https://www.w3.org/TR/css3-ui)
 - [CSS Conditional Rules Module](https://www.w3.org/TR/css3-conditional/)<br>
   - [@supports](supports.md)
