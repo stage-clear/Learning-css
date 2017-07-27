@@ -26,7 +26,6 @@
 - [CSS Scroll Snap Module Level1](https://drafts.csswg.org/css-scroll-snap/)
 
 ## References:
-- [@support will change your life](http://www.lottejackson.com/learning/supports-will-change-your-life)
 - [Introducing CSS Scroll Snap Points](https://css-tricks.com/introducing-css-scroll-snap-points/)
 - [ブラウザにおける縦書き最新情報 CodeGrid](https://app.codegrid.net/series/2015-vertical-script)
 - [CSS3 Writing Modesの仕様解説](http://tategaki.github.io/commentaries/2015/11/09/commentary-writing-modes.html)
