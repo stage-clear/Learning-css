@@ -28,6 +28,7 @@
 - [CSS Flexible Box Layout](https://www.w3.org/TR/css-flexbox-1)
 - [CSS Grid Layout](https://www.w3.org/TR/css-grid-1)
 - [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
+- [CSS Counter Styles](https://www.w3.org/TR/css-counter-styles-3/)
 - [CSS Scroll Snap Module Level1](https://drafts.csswg.org/css-scroll-snap/)
 
 ## Process
