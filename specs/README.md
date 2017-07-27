@@ -15,7 +15,8 @@
 - [CSS Basic User Interface](https://www.w3.org/TR/css3-ui)
 - [CSS Conditional Rules Module](https://www.w3.org/TR/css3-conditional/)<br>
   - [@supports](supports.md)
-- [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)
+- [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)<br>
+  - [Custom properties and Variables](variables.md)
 - [CSS Transforms](https://www.w3.org/TR/css3-transitions/)
 - [CSS Animations](https://www.w3.org/TR/css3-animations/)
   - [Link: Learn CSS Animation](https://cssanimation.rocks/)
@@ -27,7 +28,15 @@
 - [CSSOM View Module](https://www.w3.org/TR/cssom-view-1/)
 - [CSS Scroll Snap Module Level1](https://drafts.csswg.org/css-scroll-snap/)
 
+## Process
+- Working Draft _草案_
+- ~~Last Call Working Draft _最終草案_~~
+- Candidate Recommendation _勧告候補_
+- Proposed Recommendation _勧告案_
+- Recommendation _勧告_
+
 ## References:
+- [W3C勧告プロセスの概要](http://www.kanzaki.com/w3c/process.html)
 - [Introducing CSS Scroll Snap Points](https://css-tricks.com/introducing-css-scroll-snap-points/)
 
 ## Links:
