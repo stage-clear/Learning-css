@@ -1,4 +1,4 @@
-# Specificity
+# CSS Specificity
 ## Scores
 
 | Selector | a | b | c | d |
