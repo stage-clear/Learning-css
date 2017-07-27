@@ -1,4 +1,4 @@
-# Documents
+# CSS specs:
 ## Modules:
 - [CSS Syntax](https://www.w3.org/TR/css-syntax-3)
 - [CSS Cascading and Inheritance](https://www.w3.org/TR/css-cascade-3)
