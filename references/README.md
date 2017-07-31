@@ -9,6 +9,7 @@
 - [CSSでレイアウトするなら絶対覚えておきたい配置のルール](http://webdesignrecipes.com/css-visual-formating-model/)
 - [Managin the z-index with Sass](https://alexpate.uk/journal/managing-z-index-with-sass/)
 - [The Background Properties](https://bitsofco.de/the-background-properties/)
+- [Webブラウザにおける文字のアンチエイリアスの現状の最適解](http://creator.dwango.co.jp/14128.html)
 
 ## Online tutorials and tips:
 - [Apple TV parallax](http://designmodo.com/apple-tv-effect/) - 光の当て方などを使った視差効果
