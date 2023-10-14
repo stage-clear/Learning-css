@@ -1,13 +1,13 @@
-# Learn to "CSS"
+# Learning to "CSS"
 CSSの学習や情報収集のまとめ
 
-## Menu
-- [Documents](docs/)
-- [Snipetts](snippets/)
-- [References](references/)
-- [Reading books](books/)
+## 目次
+- [仕様](specs/)
+- [スニペット](snippets/)
+- [リファレンス](references/)
+- [書籍](books/)
 
-## Methods to Organize CSS
+## CSSコーディングスタイル
 - [OOCSS](methods/README.md#oocss)
 - [SMACSS](methods/README.md#smacss)
 - [BEM](methods/README.md#bem)
