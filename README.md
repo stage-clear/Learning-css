@@ -1,4 +1,4 @@
-# Learning to "CSS"
+# Learning CSS
 CSSの学習や情報収集のまとめ
 
 ## 目次
