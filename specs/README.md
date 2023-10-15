@@ -19,7 +19,10 @@
 - [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)<br>
   - [Custom properties and Variables](variables.md)
 - [CSS Transforms](https://www.w3.org/TR/css3-transitions/)
-- [CSS Animations](https://www.w3.org/TR/css3-animations/)
+- [Web Animations](https://www.w3.org/TR/css3-animations/)
+  - [CSS Animations Level 1](https://www.w3.org/TR/css-animations-1/) 
+  - [CSS Animations Level 2](https://www.w3.org/TR/css-animations-2/)
+  - [CSS Animation Worklet API](https://www.w3.org/TR/css-animation-worklet-1/)
   - [Link: Learn CSS Animation](https://cssanimation.rocks/)
 - [CSS Will Changes](https://www.w3.org/TR/css-will-change-1/)
 - [Compositing and Blending](https://www.w3.org/TR/compositing-1/) <sup>[日本語訳](https://triple-underscore.github.io/compositing-ja.html) | [MDN](https://developer.mozilla.org/ja/docs/Web/CSS/background-blend-mode)</sup>
